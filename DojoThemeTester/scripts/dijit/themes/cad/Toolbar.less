@@ -1,0 +1,173 @@
+/* Toolbar 
+ * 
+ * Styling Toolbar means styling the toolbar container and the widget inside toolbar  (dijitToolbar)
+ * 
+ * 1. toolbar (default styling): 
+ * 		.dijitToolbar - styles for outer container
+ *
+ * 2. widget inside toolbar
+ * 		.dijitToolbar .dijitButtonNode   - Button widget
+ * 					  .dijitComboButton  - ComboButton widget
+ * 					  .dijitDropDownButton  - DropDownButton widget
+ * 					  .dijitToggleButton  - ToggleButton widget
+ * 		
+ * 3. hovered widget inside toolbar (ie, mouse hover on the widget inside)
+ * 			.dijitToolbar .dijitButtonNodeHover  - styles for hovered Button widget
+ * 
+ * 4. actived widget inside toolbar (ie, mouse down on the widget inside)
+ * 			.dijitToolbar .dijitButtonNodeActive  - mouse down on Button widget
+ */
+
+@import "variables";
+
+.cad .dijitToolbar {
+	border-bottom: 1px solid @border-color;
+	background-color: @bar-background-color;
+	.standard-gradient;
+	padding: 2px 0 2px 4px;
+	zoom: 1;
+}
+
+.cad .dijitToolbar label {
+	padding: 0 3px 0 6px;
+}
+
+/** override cad/form/Button.css, and also ComboBox down arrow **/
+.cad .dijitToolbar .dijitButton .dijitButtonNode,
+.cad .dijitToolbar .dijitDropDownButton .dijitButtonNode,
+.cad .dijitToolbar .dijitComboButton .dijitButtonNode,
+.cad .dijitToolbar .dijitToggleButton .dijitButtonNode,
+.cad .dijitToolbar .dijitComboBox .dijitButtonNode {
+	border-width: 0;	/* on hover/active, border-->1px, padding-->1px */
+	padding: 2px;
+	.border-radius(@toolbar-button-border-radius);
+	.box-shadow(none);
+	.transition-property(background-color);
+	.transition-duration(.3s);
+
+	background-color:rgba(171,214,255,0);
+	background-image: none;	/* cancel gradient for normal buttons, we don't want any gradient besides toolbar's on non-hovered buttons */
+}
+.dj_ie .cad .dijitToolbar .dijitButton .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitDropDownButton .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitComboButton .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitToggleButton .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitComboBox .dijitButtonNode {
+	background-color: transparent;   /* for IE, which doesn't understand rgba(...) */
+}
+
+/* hover status */
+.dj_ie .cad .dijitToolbar .dijitButtonHover .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitComboButton .dijitButtonNodeHover,
+.dj_ie .cad .dijitToolbar .dijitComboButton .dijitDownArrowButtonHover,
+.dj_ie .cad .dijitToolbar .dijitToggleButtonHover .dijitButtonNode {
+    /* button should still turn blue on hover, so need to override .dj_ie rules above */
+	background-color: @button-hovered-background-color;
+}
+
+/* active status */
+.dj_ie .cad .dijitToolbar .dijitButtonActive .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitComboButtonActive .dijitButtonNode,
+.dj_ie .cad .dijitToolbar .dijitToggleButtonActive .dijitButtonNode {
+    /* button should still turn blue on press, so need to override .dj_ie rules above */
+	background-color: @button-pressed-background-color;
+}
+
+.cad .dijitToolbar .dijitComboButton .dijitStretch {
+	/* no rounded border on side adjacent to arrow */
+	.border-radius(@toolbar-button-border-radius 0 0 @toolbar-button-border-radius);
+}
+.cad .dijitToolbar .dijitComboButton .dijitArrowButton {
+	/* no rounded border on side adjacent to button */
+	.border-radius(0 @toolbar-button-border-radius @toolbar-button-border-radius 0);
+}
+
+.cad .dijitToolbar .dijitComboBox .dijitButtonNode {
+	padding: 0;
+}
+
+/* hover status */
+.cad .dijitToolbar .dijitButtonHover .dijitButtonNode,
+.cad .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.cad .dijitToolbar .dijitToggleButtonHover .dijitButtonNode,
+.cad .dijitToolbar .dijitComboButtonHover .dijitButtonNode {
+	border-width:1px;
+	background-color: @hovered-background-color;
+	.standard-gradient;
+	padding: 1px;
+}
+.cad .dijitToolbar .dijitComboButtonHover .dijitButtonNode,
+.cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton {
+	background-color: @toolbar-combobutton-hovered-unhoveredsection-background-color;
+}
+.cad .dijitToolbar .dijitComboButtonHover .dijitButtonNodeHover,
+.cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButtonHover {
+	background-color: @hovered-background-color;
+}
+
+/* active status */
+.cad .dijitToolbar .dijitButtonActive .dijitButtonNode,
+.cad .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode,
+.cad .dijitToolbar .dijitToggleButtonActive .dijitButtonNode {
+	border-width: 1px;
+	background-color:@pressed-background-color;
+	.active-gradient;
+	padding: 1px;
+}
+.cad .dijitToolbar .dijitComboButtonActive {
+	.transition-duration(.2s);
+	border-width: 1px;
+	padding: 0;
+}
+.cad .dijitToolbar .dijitComboButtonActive .dijitButtonNode,
+.cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton {
+	background-color: @toolbar-combobutton-hovered-unhoveredsection-background-color;
+	padding: 2px;
+}
+.cad .dijitToolbar .dijitComboButtonActive .dijitButtonNodeActive {
+	background-color: @pressed-background-color;
+	.active-gradient;
+}
+.cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButtonActive {
+	background-color: @pressed-background-color;
+	.active-gradient;
+}
+
+/* Avoid double border between button and arrow */
+.cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton,
+.cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton {
+	border-left-width: 0;
+}
+.cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton {
+	padding-left: 2px;		/* since there's no left border, don't reduce from 2px --> 1px */
+}
+
+/* toggle button checked status */
+.cad .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode {
+	margin: 0;	/* remove margin and add a border */
+	border-width: 1px;
+	border-style: solid;
+	background-image: none;
+	border-color: @selected-border-color;
+	background-color: @toolbar-button-checked-background-color;
+	padding: 1px;
+}
+
+.cad .dijitToolbarSeparator {
+	/* separator icon in the editor sprite */
+	background: url(@image-editor-icons-enabled);
+}
+
+/* Toolbar inside of disabled Editor */
+.cad .dijitDisabled .dijitToolbar {
+	background:none;
+	background-color:@disabled-background-color;
+	border-bottom: 1px solid @disabled-border-color;
+}
+
+.cad .dijitToolbar .dijitComboBoxDisabled .dijitArrowButtonInner {
+	background-position:0 50%;
+}
+

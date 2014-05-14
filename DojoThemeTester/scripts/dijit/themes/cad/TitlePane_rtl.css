@@ -1,0 +1,5 @@
+/* TitlePane */
+.cad .dijitTitlePaneRtl .dijitClosed .dijitArrowNode,
+.cad .dijitFieldsetRtl .dijitFieldsetTitleClosed .dijitArrowNode {
+  background-position: -7px 0;
+}

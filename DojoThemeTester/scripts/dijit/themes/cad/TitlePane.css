@@ -1,0 +1,93 @@
+/* TitlePane and Fieldset
+ * 
+ * Styling TitlePane means styling the TitlePane title and its content container  (dijitTitlePane)
+ * 
+ * TitlePane title:
+ * 1. TitlePane title (default styling): 
+ * 		.dijitTitlePaneTitle - TitlePane's title div style: background-color, border
+ *
+ * 2. hovered TitlePane title (ie, mouse hover on a title bar)
+ * 		.dijitTitlePaneTitleHover - styles when mouse hover on the title div
+ * 
+ * 3. active TitlePane title (ie, mouse down on a title bar)
+ * 		.dijitTitlePaneTitleActive - styles when mouse down on the title div
+ * 
+ * 
+ * TitlePane Content Container:
+ * 1. outer/inner container: 
+ * 		.dijitTitlePaneContentOuter / dijitTitlePaneContentInner - styles for the content outer div
+ */
+.cad .dijitTitlePaneTitle {
+  background-color: #00bd00;
+  background-image: url("images/standardGradient.png");
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  _background-image: none;
+  border: 1px solid #452b27;
+  padding: 0 7px 3px 7px;
+  min-height: 17px;
+  color: #000000;
+}
+.cad .dijitFieldset {
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.cad .dijitTitlePaneTitleOpen,
+.cad .dijitTitlePaneTitleFixedOpen {
+  background-color: #b30505;
+  color: #000000;
+}
+.cad .dijitTitlePaneTitleHover {
+  background-color: #990000;
+  border-color: #1b0909;
+}
+.cad .dijitTitlePaneTitleActive {
+  background-color: #660000;
+  border-color: #1b0909;
+  background-image: url("images/activeGradient.png");
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(rgba(190, 190, 190, 0.98) 0px, rgba(255, 255, 255, 0.65) 3px, rgba(255, 255, 255, 0) 100%);
+  _background-image: none;
+}
+.cad .dijitTitlePaneTitleFocus {
+  margin-top: 3px;
+  padding-bottom: 2px;
+}
+.cad .dijitTitlePane .dijitArrowNode,
+.cad .dijitFieldset .dijitArrowNode {
+  background-image: url("images/spriteArrows.png");
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 7px;
+}
+.cad .dijitTitlePaneTitleOpen .dijitArrowNode,
+.cad .dijitFieldsetTitleOpen .dijitArrowNode {
+  background-position: 0 0;
+}
+.cad .dijitTitlePaneTitleClosed .dijitArrowNode,
+.cad .dijitFieldsetTitleClosed .dijitArrowNode {
+  background-position: -14px 0;
+}
+.cad .dijitTitlePaneContentOuter {
+  background: #ffffff;
+  border: 1px solid #452b27;
+  border-top: none;
+}
+.cad .dijitTitlePaneContentInner {
+  padding: 10px;
+}
+.cad .dijitFieldsetContentInner {
+  padding: 4px;
+}
+.cad .dijitTitlePaneTextNode,
+.cad .dijitFieldsetLegendNode {
+  margin-left: 4px;
+  margin-right: 4px;
+  vertical-align: text-top;
+}

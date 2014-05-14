@@ -1,0 +1,7379 @@
+{ 
+	"MyVariables": [
+		{
+			"Key": "@primary-color",
+			"Value": "#cfe5fa",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@secondary-color",
+			"Value": "#efefef",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@text-color",
+			"Value": "#000",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@disabled-color",
+			"Value": "#d3d3d3",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@error-color",
+			"Value": "#d46464",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@container-background-color",
+			"Value": "#fff",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@minor-selected-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "6" 
+                ]
+		},
+ "19" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@base-border-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "29" 
+                ]
+		},
+ "44" 
+                ]
+		},
+ "-1" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@unfocused-clickable-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "lighten",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "5" 
+                ]
+		},
+ "10" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@border-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "15" 
+                ]
+		},
+ "67" 
+                ]
+		},
+ "8" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@minor-border-color",
+			"Value": "@disabled-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@popup-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@disabled-border-color",
+			"Value": "@disabled-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@disabled-background-color",
+			"Value": "@secondary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@disabled-text-color",
+			
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "43" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@unselected-background-color",
+			"Value": "@secondary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@unselected-text-color",
+			
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "65" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@hovered-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@hovered-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@hovered-text-color",
+			"Value": "@text-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@pressed-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@pressed-background-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "16" 
+                ]
+		},
+ "12" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@selected-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "  @selected-background-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@selected-text-color",
+			"Value": "@text-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@bar-background-color",
+			"Value": "@secondary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@pane-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@popup-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@button-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@button-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@button-hovered-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@button-pressed-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@button-border-radius",
+			"Value": "4px",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@focused-border-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@error-border-color",
+			"Value": "@error-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@error-focused-border-color",
+			
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@error-color",
+ "5" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@erroricon-background-color",
+			"Value": "@error-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-hovered-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-focused-background-color",
+			"Value": "@textbox-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-error-background-color",
+			"Value": "@textbox-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-disabled-background-color",
+			"Value": "@disabled-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@textbox-padding",
+			"Value": "2px",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@focus-outline-color",
+			
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "65" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@nestedtab-hovered-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@nestedtab-hovered-border-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@nestedtab-selected-border-color",
+			"Value": "@selected-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@nestedtab-selected-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@tab-disabled-background-color",
+			"Value": "@disabled-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@arrowbutton-background-color",
+			"Value": "@secondary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@arrowbutton-hovered-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@arrowbutton-pressed-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@arrowbutton-inner-border-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-fullbar-background-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-remainingbar-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-hovered-fullbar-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-hovered-remainingbar-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-hoveredButton-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-focused-fullbar-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-focused-remainingbar-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-button-hovered-background-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@slider-button-pressed-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@select-dropdownitem-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@select-dropdownitem-hovered-background-color",
+			"Value": "@pressed-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@select-matchedtext-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@menu-background-color",
+			"Value": "@popup-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-background-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-currentmonth-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-adjacentmonth-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-adjacentmonth-text-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-date-pressed-border-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-date-pressed-background-color",
+			"Value": "@pressed-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-date-selected-border-color",
+			"Value": "@selected-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-date-selected-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-button-hovered-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-button-hovered-border-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-button-pressed-background-color",
+			"Value": "@pressed-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@calendar-button-pressed-border-color",
+			"Value": "@pressed-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@progressbar-border-color",
+			"Value": "@popup-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@progressbar-full-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@progressbar-empty-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@progressbar-text-color",
+			"Value": "@text-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-minorvalue-background-color",
+			"Value": "@secondary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-minorvalue-text-color",
+			
+			"Name": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "43" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-majorvalue-background-color",
+			"Value": "@unfocused-clickable-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-value-hovered-background-color",
+			"Value": "@pressed-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-value-hovered-text-color",
+			"Value": "@hovered-text-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@timepicker-arrow-hovered-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@colorpalette-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@swatch-border-color",
+			"Value": "@minor-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@swatch-hovered-border-color",
+			"Value": "#000",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@swatch-selected-border-color",
+			"Value": "#000",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@dialog-underlay-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@dialog-titlebar-border-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@dialog-titlebar-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@tooltip-gradient-color",
+			
+			"Name": "fade",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "10%" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@splitter-hovered-background-color",
+			"Value": "@primary-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@splitter-dragged-background-color",
+			"Value": "@minor-selected-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@toolbar-button-checked-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+			
+			"Name": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"Name": "lighten",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "8" 
+                ]
+		},
+ "19" 
+                ]
+		},
+ "-29" 
+                ]
+		,
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@toolbar-button-border-radius",
+			"Value": "2px",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@dnd-avatar-background-color",
+			"Value": "@container-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@dnd-avatar-header-background-color",
+			"Value": "#f58383",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@dnd-avatar-candrop-header-background-color",
+			"Value": "#97e68d",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@dnd-dropseparator-color",
+			"Value": "@base-border-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@document-text-color",
+			"Value": "#131313",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@document-shadedsection-background-color",
+			"Value": "@bar-background-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@document-border-color",
+			"Value": "@disabled-color",
+			"Type": "Linked"
+		}, 
+		{
+			"Key": "@image-arrow-sprite",
+			"Value": "images/spriteArrows.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-calendar-arrows",
+			"Value": "images/calendarArrows.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-calendar-arrows-ie6",
+			"Value": "images/calendarArrows8bit.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-checkmark",
+			"Value": "images/checkmarkNoBorder.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-checkmark-ie6",
+			"Value": "images/checkmarkNoBorder.gif",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-dialog-close",
+			"Value": "images/dialogCloseIcon.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-dialog-close-ie6",
+			"Value": "images/dialogCloseIcon8bit.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-dnd",
+			"Value": "images/dnd.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-editor-icons-enabled",
+			"Value": "../../icons/images/editorIconsEnabled.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-button-arrows",
+			"Value": "form/images/buttonArrows.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-checkbox-and-radios",
+			"Value": "form/images/checkboxRadioButtonStates.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-checkbox-and-radios-ie6",
+			"Value": "form/images/checkboxAndRadioButtons_IE6.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-common-arrows",
+			"Value": "form/images/commonFormArrows.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-error",
+			"Value": "form/images/error.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-form-slider-thumbs",
+			"Value": "form/images/sliderThumbs.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-layout-tab-close",
+			"Value": "layout/images/tabClose.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-loading-animation",
+			"Value": "images/loadingAnimation.gif",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-tooltip",
+			"Value": "images/tooltip.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-tooltip-ie6",
+			"Value": "images/tooltip8bit.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-tree-expand",
+			"Value": "images/treeExpandImages.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-tree-expand-ie6",
+			"Value": "images/treeExpandImages8bit.png",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": "@image-progressbar-anim",
+			"Value": "images/progressBarAnim.gif",
+			"Type": "Basic"
+		}, 
+		{
+			"Key": ".border-radius",
+			"Input": [
+                    "@radius"
+             ],
+			"Body": [
+                    {
+			        "Type": "-moz-border-radius",
+			        "Value":[
+						        "@radius"
+					        ]
+		            }, 
+                    {
+			        "Type": "border-radius",
+			        "Value":[
+						        "@radius"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "box-shadow",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-box-shadow",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-box-shadow",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "box-shadow",
+			        "Value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "transition-property",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-transition-property",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-transition-property",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "transition-property",
+			        "Value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "transition-property",
+			"Input": [
+                    "@value1", "@value2"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-transition-property",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-transition-property",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "Type": "transition-property",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "transition-duration",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-transition-duration",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-transition-duration",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "transition-duration",
+			        "Value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "transition-duration",
+			"Input": [
+                    "@value1", "@value2"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-transition-duration",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-transition-duration",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "Type": "transition-duration",
+			        "Value":[
+						        "@value1", "@value2"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"Key": "transition-timing-function",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "Type": "-webkit-transition-timing-function",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "-moz-transition-timing-function",
+			        "Value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "Type": "transition-timing-function",
+			        "Value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}],
+	"MyClasses": [{
+			"ClassName": ".claro .dijitPopup",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipDialogPopup",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBoxHighlightMatch",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@select-matchedtext-background-color",
+					"Variables":[@select-matchedtext-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitFocusedLabel",
+			"Attributes":[
+                {
+					"Type": "outline",
+					"Value": "1px dotted @focus-outline-color",
+					"Variables":[@focus-outline-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndItem",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "rgba(0,0,0,0)",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndItemOver",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndItemAnchor,.claro .dojoDndItemSelected",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndItemBefore,.claro .dojoDndItemAfter",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@dnd-dropseparator-color",
+					"Variables":[@dnd-dropseparator-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro table.dojoDndAvatar",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "border-collapse",
+					"Value": "collapse",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@dnd-avatar-background-color",
+					"Variables":[@dnd-avatar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndAvatarHeader td",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "20px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-left",
+					"Value": "21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro.dojoDndMove .dojoDndAvatarHeader, .claro.dojoDndCopy .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-dnd)",
+					"Variables":[@image-dnd)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "2px -122px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dojoDndAvatarItem td",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro.dojoDndMove .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@dnd-avatar-header-background-color",
+					"Variables":[@dnd-avatar-header-background-color]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "2px -103px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro.dojoDndCopy .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@dnd-avatar-header-background-color",
+					"Variables":[@dnd-avatar-header-background-color]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "2px -68px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@dnd-avatar-candrop-header-background-color",
+					"Variables":[@dnd-avatar-candrop-header-background-color]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "2px -33px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@dnd-avatar-candrop-header-background-color",
+					"Variables":[@dnd-avatar-candrop-header-background-color]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitTextBox,.claro .dijitInputInner",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitValidationTextBoxError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@erroricon-background-color",
+					"Variables":[@erroricon-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-error",
+					"Variables":[@{image-form-error]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-position: top center;border: solid @erroricon-background-color 0;width: 9px;}.claro .dijitTextBoxError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitValidationTextBoxError .dijitValidationIcon",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTextArea,.claro .dijitInputField .dijitPlaceHolder",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "@textbox-padding",
+					"Variables":[@textbox-padding]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect .dijitInputField,.claro .dijitTextBox .dijitInputField",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "@textbox-padding - 1px  @textbox-padding",
+					"Variables":[@textbox-padding @textbox-padding]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_gecko .claro .dijitTextBox .dijitInputInner,.dj_webkit .claro .dijitTextBox .dijitInputInner",
+			"Attributes":[
+                {
+					"Type": "padding-left",
+					"Value": "@textbox-padding - 1px",
+					"Variables":[@textbox-padding]
+				}, 
+                {
+					"Type": "padding-right",
+					"Value": "@textbox-padding - 1px",
+					"Variables":[@textbox-padding]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect,.claro .dijitSelect .dijitButtonContents,.claro .dijitTextBox,.claro .dijitTextBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect,.claro .dijitTextBox",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-background-color",
+					"Variables":[@textbox-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectHover,.claro .dijitSelectHover .dijitButtonContents,.claro .dijitTextBoxHover,.claro .dijitTextBoxHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTextBoxHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-hovered-background-color",
+					"Variables":[@textbox-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectError,.claro .dijitSelectError .dijitButtonContents,.claro .dijitTextBoxError,.claro .dijitTextBoxError .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@error-border-color",
+					"Variables":[@error-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectFocused,.claro .dijitSelectFocused .dijitButtonContents,.claro .dijitTextBoxFocused,.claro .dijitTextBoxFocused .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTextBoxFocused",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-focused-background-color",
+					"Variables":[@textbox-focused-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTextBoxFocused .dijitInputContainer",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@textbox-focused-background-color",
+					"Variables":[@textbox-focused-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectErrorFocused,.claro .dijitSelectErrorFocused .dijitButtonContents,.claro .dijitTextBoxErrorFocused,.claro .dijitTextBoxErrorFocused .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@error-focused-border-color",
+					"Variables":[@error-focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectDisabled,.claro .dijitSelectDisabled .dijitButtonContents,.claro .dijitTextBoxDisabled,.claro .dijitTextBoxDisabled .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectDisabled,.claro .dijitTextBoxDisabled,.claro .dijitTextBoxDisabled .dijitInputContainer",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-disabled-background-color",
+					"Variables":[@textbox-disabled-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectDisabled,.claro .dijitTextBoxDisabled,.claro .dijitTextBoxDisabled .dijitInputInner",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_webkit .claro .dijitDisabled input",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "darken(@disabled-text-color, 5%)",
+					"Variables":[@disabled-text-color,]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_webkit .claro textarea.dijitTextAreaDisabled",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "darken(@disabled-text-color, 40%)",
+					"Variables":[@disabled-text-color,]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect .dijitArrowButtonInner,.claro .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-common-arrows",
+					"Variables":[@{image-form-common-arrows]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-position:-35px 53%;background-repeat: no-repeat;margin: 0;width:16px;}.claro .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @arrowbutton-inner-border-color",
+					"Variables":[@arrowbutton-inner-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectLabel,.claro .dijitTextBox .dijitInputInner,.claro .dijitValidationTextBox .dijitValidationContainer",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-background-color",
+					"Variables":[@arrowbutton-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBoxOpenOnClickHover .dijitButtonNode,.claro .dijitComboBox .dijitDownArrowButtonHover,.claro .dijitComboBoxFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-hovered-background-color",
+					"Variables":[@arrowbutton-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBoxOpenOnClickHover .dijitArrowButtonInner,.claro .dijitComboBox .dijitDownArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBox .dijitHasDropDownOpen",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_iequirks .claro .dijitComboBox .dijitHasDropDownOpen",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-70px 53%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "0 none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro div.dijitComboBoxDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 50%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ff3 .claro .dijitInputField input[type="hidden"]",
+			"Attributes":[
+                {
+					"Type": "display",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_borderbox .claro .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "18px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_borderbox .claro .dijitComboBoxFocused .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitButtonNode",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButton .dijitButtonNode,.claro .dijitDropDownButton .dijitButtonNode,.claro .dijitComboButton .dijitButtonNode,.claro .dijitToggleButton .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @button-border-color",
+					"Variables":[@button-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px 4px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "desaturate(darken(@button-background-color, 10), 20)",
+					"Variables":[@button-background-color,]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/buttonEnabled.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"Type": "_background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "4px 2px 4px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0 auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-button-arrows",
+					"Variables":[@{image-form-button-arrows]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-repeat:no-repeat;background-position:-51px 53%;}.claro .dijitLeftArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-77px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRightArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-26px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-151px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-177px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-126px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-100px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButtonText",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 0.3em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButtonHover .dijitButtonNode,.claro .dijitDropDownButtonHover .dijitButtonNode,.claro .dijitComboButton .dijitButtonNodeHover, .claro .dijitComboButton .dijitDownArrowButtonHover,.claro .dijitToggleButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "desaturate(darken(@button-hovered-background-color, 10), 20)",
+					"Variables":[@button-hovered-background-color,]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButtonActive .dijitButtonNode, .claro .dijitDropDownButtonActive .dijitButtonNode,.claro .dijitComboButtonActive .dijitButtonNode,.claro .dijitToggleButtonActive .dijitButtonNode,.claro .dijitToggleButtonChecked .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "desaturate(darken(@button-pressed-background-color, 10), 20)",
+					"Variables":[@button-pressed-background-color,]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButtonDisabled,.claro .dijitDropDownButtonDisabled,.claro .dijitComboButtonDisabled,.claro .dijitToggleButtonDisabled",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "outline",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitButtonDisabled .dijitButtonNode,.claro .dijitDropDownButtonDisabled .dijitButtonNode,.claro .dijitComboButtonDisabled .dijitButtonNode,.claro .dijitToggleButtonDisabled .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/buttonDisabled.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "_background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboButtonDisabled .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro table.dijitComboButton",
+			"Attributes":[
+                {
+					"Type": "border-collapse",
+					"Value": "separate",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboButton .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-checkmark",
+					"Variables":[@{image-checkmark]
+				}
+			  ]
+		}, {
+			"ClassName": "");}.dj_ie6 .claro .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-checkmark-ie6",
+					"Variables":[@{image-checkmark-ie6]
+				}
+			  ]
+		}, {
+			"ClassName": "");}.claro .dijitCheckBox,.claro .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios",
+					"Variables":[@{image-form-checkbox-and-radios]
+				}
+			  ]
+		}, {
+			"ClassName": ""); background-repeat: no-repeat;width: 15px;height: 16px;margin: 0 2px 0 0;padding: 0;}.dj_ie6 .claro .dijitCheckBox,.dj_ie6 .claro .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios-ie6",
+					"Variables":[@{image-form-checkbox-and-radios-ie6]
+				}
+			  ]
+		}, {
+			"ClassName": ""); }.claro .dijitCheckBox,.claro .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-15px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckBoxChecked,.claro .dijitToggleButtonChecked .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckBoxDisabled",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-75px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckBoxCheckedDisabled",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-60px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckBoxHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-45px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckBoxCheckedHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-30px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitToggleButton .dijitRadio,.claro .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios",
+					"Variables":[@{image-form-checkbox-and-radios]
+				}
+			  ]
+		}, {
+			"ClassName": "");}.dj_ie6 .claro .dijitToggleButton .dijitRadio,.dj_ie6 .claro .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios-ie6",
+					"Variables":[@{image-form-checkbox-and-radios-ie6]
+				}
+			  ]
+		}, {
+			"ClassName": "");}.claro .dijitRadio,.claro .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios",
+					"Variables":[@{image-form-checkbox-and-radios]
+				}
+			  ]
+		}, {
+			"ClassName": ""); background-repeat: no-repeat;width: 15px;height: 15px;margin: 0 2px 0 0;padding: 0;}.dj_ie6 .claro .dijitRadio,.dj_ie6 .claro .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-checkbox-and-radios-ie6",
+					"Variables":[@{image-form-checkbox-and-radios-ie6]
+				}
+			  ]
+		}, {
+			"ClassName": ""); }.claro .dijitRadio",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-105px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-107px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioDisabled",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-165px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-135px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioChecked",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-90px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToggleButtonChecked .dijitRadioIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-92px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioCheckedHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-120px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioCheckedDisabled",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-150px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitSelect .dijitArrowButtonContainer",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @arrowbutton-inner-border-color",
+					"Variables":[@arrowbutton-inner-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-background-color",
+					"Variables":[@arrowbutton-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelect .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-hovered-background-color",
+					"Variables":[@textbox-hovered-background-color]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectHover .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-hovered-background-color",
+					"Variables":[@arrowbutton-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectHover .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "#7dbefa",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectDisabled",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectDisabled .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectMenu td.dijitMenuItemIconCell,.claro .dijitSelectMenu td.dijitMenuArrowCell",
+			"Attributes":[
+                {
+					"Type": "display",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectMenu td.dijitMenuItemLabel",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "@textbox-padding",
+					"Variables":[@textbox-padding]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSelectMenu .dijitMenuSeparatorTop",
+			"Attributes":[
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.unselected-tab-gradient (@direction)",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".topBottom-selected-tab-gradient (@direction)",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabPaneWrapper",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@pane-background-color",
+					"Variables":[@pane-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabPaneWrapper,.claro .dijitTabContainerTop-tabs,.claro .dijitTabContainerBottom-tabs,.claro .dijitTabContainerLeft-tabs,.claro .dijitTabContainerRight-tabs",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabCloseButton",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "url("../@{image-layout-tab-close",
+					"Variables":[@{image-layout-tab-close]
+				}
+			  ]
+		}, {
+			"ClassName": "") no-repeat;width: 14px;height: 14px;margin-left: 5px;margin-right:-5px;}.claro .dijitTabCloseButtonHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabCloseButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-28px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabSpacer",
+			"Attributes":[
+                {
+					"Type": "display",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTab",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@unselected-background-color",
+					"Variables":[@unselected-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@unselected-text-color",
+					"Variables":[@unselected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabHover",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabActive",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@pressed-border-color",
+					"Variables":[@pressed-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabDisabled",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@tab-disabled-background-color",
+					"Variables":[@tab-disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTop-tabs .dijitTab",
+			"Attributes":[
+                {
+					"Type": "top",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 6px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "min-width",
+					"Value": "60px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabTopUnselected.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTop-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "padding-bottom",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-top",
+					"Value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabTopSelected.png")",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerBottom-tabs .dijitTab",
+			"Attributes":[
+                {
+					"Type": "top",
+					"Value": "-1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 6px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-top-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "min-width",
+					"Value": "60px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabBottomUnselected.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "bottom",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerBottom-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "padding-bottom",
+					"Value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-top",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabBottomSelected.png")",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerLeft-tabs .dijitTab",
+			"Attributes":[
+                {
+					"Type": "left",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 8px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabLeftUnselected.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-y",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerLeft-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "border-right-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-right",
+					"Value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabLeftSelected.png")",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerRight-tabs .dijitTab",
+			"Attributes":[
+                {
+					"Type": "left",
+					"Value": "-1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 8px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabRightUnselected.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-y",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerRight-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "padding-left",
+					"Value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabRightSelected.png")",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTop-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerBottom-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerLeft-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerRight-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@button-background-color",
+					"Variables":[@button-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabListContainer-top .tabStripButton",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "4px 3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-top",
+					"Value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabListContainer-bottom .tabStripButton",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "4px 3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButtonHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabStripIcon",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0 auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background",
+					"Value": "url("../@{image-form-button-arrows",
+					"Variables":[@{image-form-button-arrows]
+				}
+			  ]
+		}, {
+			"ClassName": "") no-repeat -75px 50%;background-color: transparent;}.claro .dijitTabStripSlideRightIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-24px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabStripMenuIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-51px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabListContainer-top .tabStripButtonDisabled,.claro .dijitTabListContainer-bottom .tabStripButtonDisabled",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@tab-disabled-background-color",
+					"Variables":[@tab-disabled-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButtonDisabled .dijitTabStripSlideLeftIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-175px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButtonDisabled .dijitTabStripSlideRightIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-124px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .tabStripButtonDisabled .dijitTabStripMenuIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-151px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerNested .dijitTabListWrapper",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "auto",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerNested .dijitTabContainerTop-tabs",
+			"Attributes":[
+                {
+					"Type": "border-bottom",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px 2px 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTab",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "rgba(255, 255, 255, 0)",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "rgba(118,157,192,0)",
+					"Variables":[]
+				}, 
+                {
+					"Type": "top",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/tabNested.png") repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTabHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@nestedtab-hovered-background-color",
+					"Variables":[@nestedtab-hovered-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @nestedtab-hovered-border-color",
+					"Variables":[@nestedtab-hovered-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTabHover .tabLabel",
+			"Attributes":[
+                {
+					"Type": "text-decoration",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTabActive",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @nestedtab-selected-border-color",
+					"Variables":[@nestedtab-selected-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTabChecked",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTabListNested .dijitTabChecked .tabLabel",
+			"Attributes":[
+                {
+					"Type": "text-decoration",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabPaneWrapperNested",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainer .dijitTab,.claro .dijitTabContainer .tabStripButton",
+			"Attributes":[
+                {
+					"Type": "_background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitDialog",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @popup-border-color",
+					"Variables":[@popup-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogPaneContent",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@pane-background-color repeat-x top left",
+					"Variables":[@pane-background-color]
+				}, 
+                {
+					"Type": "border-top",
+					"Value": "1px solid @popup-border-color",
+					"Variables":[@popup-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "10px 8px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "position",
+					"Value": "relative",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogPaneContentArea",
+			"Attributes":[
+                {
+					"Type": "margin",
+					"Value": "-10px -8px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "10px 8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@bar-background-color",
+					"Variables":[@bar-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 5px 2px 7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "right",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-top",
+					"Value": "1px solid @minor-border-color",
+					"Variables":[@minor-border-color]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "10px -8px -10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipDialog .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"Type": "-webkit-border-bottom-right-radius",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "-webkit-border-bottom-left-radius",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom-right-radius",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom-left-radius",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "-moz-border-radius-bottomright",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "-moz-border-radius-bottomleft",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "10px -10px -8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogPaneActionBar .dijitButton",
+			"Attributes":[
+                {
+					"Type": "float",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogTitleBar",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @dialog-titlebar-border-color",
+					"Variables":[@dialog-titlebar-border-color]
+				}, 
+                {
+					"Type": "border-top",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@dialog-titlebar-background-color",
+					"Variables":[@dialog-titlebar-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "5px 7px 4px 7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogTitle",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "url(@image-dialog-close)",
+					"Variables":[@image-dialog-close)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "position",
+					"Value": "absolute",
+					"Variables":[]
+				}, 
+                {
+					"Type": "right",
+					"Value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-dialog-close-ie6)",
+					"Variables":[@image-dialog-close-ie6)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogCloseIconHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogCloseIcon:active",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-42px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltip,.claro .dijitTooltipDialog",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dijitTooltipBelow",
+			"Attributes":[
+                {
+					"Type": "padding-top",
+					"Value": "13px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-left",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-right",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dijitTooltipAbove",
+			"Attributes":[
+                {
+					"Type": "padding-bottom",
+					"Value": "13px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-left",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-right",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipContainer",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@popup-background-color",
+					"Variables":[@popup-background-color]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "bottom",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @popup-border-color",
+					"Variables":[@popup-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "6px 8px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "1em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "z-index",
+					"Value": "2",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url(@image-tooltip)",
+					"Variables":[@image-tooltip)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-tooltip-ie6)",
+					"Variables":[@image-tooltip-ie6)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipBelow .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "top",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "left",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-31px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipAbove .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "bottom",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "left",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-15px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie7 .claro .dijitTooltipAbove .dijitTooltipConnector,.dj_ie6 .claro .dijitTooltipAbove .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "bottom",
+					"Value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipABRight .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "left",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "right",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipLeft",
+			"Attributes":[
+                {
+					"Type": "padding-right",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipLeft .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "right",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipRight",
+			"Attributes":[
+                {
+					"Type": "padding-left",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTooltipRight .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"Type": "left",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-48px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogUnderlay",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@dialog-underlay-color",
+					"Variables":[@dialog-underlay-color]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitAccordionContainer",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainer",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@unselected-background-color",
+					"Variables":[@unselected-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "5px 7px 2px 7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "min-height",
+					"Value": "17px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@unselected-text-color",
+					"Variables":[@unselected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionContainer .dijitAccordionChildWrapper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pane-background-color",
+					"Variables":[@pane-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0 2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionContainer .dijitAccordionContainer-child",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "9px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerHover",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerHover .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerActive",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerActive .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerSelected",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitAccordionInnerContainerSelected .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitContentPane",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTabContainerTop-dijitContentPane,.claro .dijitTabContainerLeft-dijitContentPane,.claro .dijitTabContainerBottom-dijitContentPane,.claro .dijitTabContainerRight-dijitContentPane,.claro .dijitAccordionContainer-dijitContentPane",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pane-background-color",
+					"Variables":[@pane-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitContainer-dijitContentPane,.claro .dijitBorderContainer-dijitContentPane",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pane-background-color",
+					"Variables":[@pane-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitCalendar",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "border-collapse",
+					"Value": "separate",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@calendar-background-color",
+					"Variables":[@calendar-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/calendar.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "6px 5px 3px 5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitCalendar",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendar img",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarHover, .claro .dijitCalendar:hover,.claro .dijitCalendarActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarMonthContainer th",
+			"Attributes":[
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-bottom",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "vertical-align",
+					"Value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarMonthLabel",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarIncrementControl",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url(@image-calendar-arrows)",
+					"Variables":[@image-calendar-arrows)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitCalendarIncrementControl",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-calendar-arrows-ie6)",
+					"Variables":[@image-calendar-arrows-ie6)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarArrowHover .dijitCalendarDecrease,.claro .dijitCalendarArrow:hover .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarArrowHover .dijitCalendarIncrease,.claro .dijitCalendarArrow:hover .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-55px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarArrowActive .dijitCalendarDecrease,.claro .dijitCalendarArrow:active .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-72px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarArrowActive .dijitCalendarIncrease,.claro .dijitCalendarArrow:active .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-91px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitA11ySideArrow",
+			"Attributes":[
+                {
+					"Type": "display",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarDayLabelTemplate",
+			"Attributes":[
+                {
+					"Type": "padding-bottom",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 3px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarDayLabel",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 4px 0 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-weight",
+					"Value": "bold",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "0.909em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarDateTemplate",
+			"Attributes":[
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@calendar-currentmonth-background-color",
+					"Variables":[@calendar-currentmonth-background-color]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @minor-border-color",
+					"Variables":[@minor-border-color]
+				}, 
+                {
+					"Type": "padding-top",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "0.909em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-family",
+					"Value": "Arial",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-weight",
+					"Value": "bold",
+					"Variables":[]
+				}, 
+                {
+					"Type": "letter-spacing",
+					"Value": ".05em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitCalendarDateTemplate",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarPreviousMonth,.claro .dijitCalendarNextMonth",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@calendar-adjacentmonth-background-color",
+					"Variables":[@calendar-adjacentmonth-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "solid 1px @minor-border-color",
+					"Variables":[@minor-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarDateTemplate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "text-decoration",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "display",
+					"Value": "block",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 5px 3px 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @calendar-currentmonth-background-color",
+					"Variables":[@calendar-currentmonth-background-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "rgba(171,212,251,0)",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarPreviousMonth .dijitCalendarDateLabel,.claro .dijitCalendarNextMonth .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@calendar-adjacentmonth-text-color",
+					"Variables":[@calendar-adjacentmonth-text-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@calendar-adjacentmonth-background-color",
+					"Variables":[@calendar-adjacentmonth-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarYearContainer",
+			"Attributes":[
+                {
+					"Type": "vertical-align",
+					"Value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarYearControl",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 2px 2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarYearLabel",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "2px 0 0 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "1.17em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarYearLabel span",
+			"Attributes":[
+                {
+					"Type": "vertical-align",
+					"Value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarSelectedYear",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarNextYear,.claro .dijitCalendarPreviousYear",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 6px 1px 6px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "0.909em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarSelectedYear",
+			"Attributes":[
+                {
+					"Type": "font-size",
+					"Value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarHoveredDate .dijitCalendarDateLabel,.claro .dijitCalendarEnabledDate:hover .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarNextYearHover, .claro .dijitCalendarNextYear:hover,.claro .dijitCalendarPreviousYearHover, .claro .dijitCalendarPreviousYear:hover",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @calendar-button-hovered-border-color",
+					"Variables":[@calendar-button-hovered-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 5px 0 5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@calendar-button-hovered-background-color",
+					"Variables":[@calendar-button-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarNextYearActive, .claro .dijitCalendarNextYear:active.claro .dijitCalendarPreviousYearActive, .claro .dijitCalendarPreviousYear:active",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @calendar-button-pressed-border-color",
+					"Variables":[@calendar-button-pressed-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 5px 0 5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@calendar-button-pressed-background-color",
+					"Variables":[@calendar-button-pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarActiveDate .dijitCalendarDateLabel,.claro .dijitCalendarEnabledDate:active .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@calendar-date-pressed-background-color",
+					"Variables":[@calendar-date-pressed-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @calendar-date-pressed-border-color",
+					"Variables":[@calendar-date-pressed-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitCalendarActiveDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarSelectedDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@calendar-date-selected-background-color",
+					"Variables":[@calendar-date-selected-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@calendar-date-selected-border-color",
+					"Variables":[@calendar-date-selected-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarDisabledDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}, 
+                {
+					"Type": "text-decoration",
+					"Value": "line-through",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendar .dijitDropDownButton",
+			"Attributes":[
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendar .dijitButtonText",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 0 3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "-4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendar .dijitDropDownButton .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 3px 0 2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendar .dijitDropDownButtonHover .dijitButtonNode,.claro .dijitCalendar .dijitDropDownButton:hover .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@calendar-button-hovered-background-color",
+					"Variables":[@calendar-button-hovered-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @calendar-button-hovered-border-color",
+					"Variables":[@calendar-button-hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarMonthMenu",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@popup-border-color",
+					"Variables":[@popup-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@menu-background-color",
+					"Variables":[@menu-background-color]
+				}, 
+                {
+					"Type": "text-align",
+					"Value": "center",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarMonthMenu .dijitCalendarMonthLabel",
+			"Attributes":[
+                {
+					"Type": "border-top",
+					"Value": "solid 1px @menu-background-color",
+					"Variables":[@menu-background-color]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "solid 1px @menu-background-color",
+					"Variables":[@menu-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarMonthMenu .dijitCalendarMonthLabelHover,.claro .dijitCalendarMonthMenu .dijitCalendarMonthLabel:hover",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitMenuBar",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@bar-background-color",
+					"Variables":[@bar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenu",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@menu-background-color",
+					"Variables":[@menu-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @popup-border-color",
+					"Variables":[@popup-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuItem",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuBar .dijitMenuItem",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "6px 10px 7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuBar .dijitMenuItemHover,.claro .dijitMenuBar .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "5px 9px 6px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuTable",
+			"Attributes":[
+                {
+					"Type": "border-collapse",
+					"Value": "separate",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-spacing",
+					"Value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenu .dijitMenuItem td,.claro .dijitComboBoxMenu .dijitMenuItem",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "@textbox-padding",
+					"Variables":[@textbox-padding]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px 0 1px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-style",
+					"Value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@select-dropdownitem-background-color",
+					"Variables":[@select-dropdownitem-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenu .dijitMenuItemHover td,.claro .dijitMenu .dijitMenuItemSelected td,.claro .dijitMenuItemHover,.claro .dijitComboBoxMenu .dijitMenuItemHover,.claro .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuItemActive",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".dj_ie .claro .dijitMenuActive .dijitMenuItemHover,.dj_ie .claro .dijitMenuActive .dijitMenuItemSelected,.dj_ie .claro .dijitMenuPassive .dijitMenuItemHover,.dj_ie .claro .dijitMenuPassive .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"Type": "padding-top",
+					"Value": "6px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-bottom",
+					"Value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-top",
+					"Value": "-3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro td.dijitMenuItemIconCell",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0 0 0 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro td.dijitMenuItemLabel",
+			"Attributes":[
+                {
+					"Type": "padding-top",
+					"Value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-bottom",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuExpand",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url(@image-arrow-sprite)",
+					"Variables":[@image-arrow-sprite)]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-14px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuItemDisabled .dijitMenuItemIconCell",
+			"Attributes":[
+                {
+					"Type": "opacity",
+					"Value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuSeparatorTop",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-top",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuSeparatorBottom",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckedMenuItem .dijitMenuItemIcon,.claro .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-form-checkbox-and-radios)",
+					"Variables":[@image-form-checkbox-and-radios)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-15px 50%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitCheckedMenuItem .dijitMenuItemIcon,.dj_ie6 .claro .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-form-checkbox-and-radios-ie6)",
+					"Variables":[@image-form-checkbox-and-radios-ie6)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-105px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRadioMenuItemChecked .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-90px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBoxMenu",
+			"Attributes":[
+                {
+					"Type": "margin-left",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenu .dijitMenuItemSelected td,.claro .dijitComboBoxMenu .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboBoxMenuActive .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@select-dropdownitem-hovered-background-color",
+					"Variables":[@select-dropdownitem-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuPreviousButton, .claro .dijitMenuNextButton",
+			"Attributes":[
+                {
+					"Type": "font-style",
+					"Value": "italic",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitSliderBar",
+			"Attributes":[
+                {
+					"Type": "border-style",
+					"Value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"Type": "outline",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderBar",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderHover .dijitSliderBar",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderBar",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRuleLabelsContainer",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRuleLabelsContainerH",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSlider .dijitSliderProgressBarH,.claro .dijitSlider .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@slider-fullbar-background-color",
+					"Variables":[@slider-fullbar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSlider .dijitSliderRemainingBarH,.claro .dijitSlider .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@slider-remainingbar-background-color",
+					"Variables":[@slider-remainingbar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "border-right",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "border-left",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderHover .dijitSliderProgressBarH,.claro .dijitSliderHover .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-hovered-fullbar-background-color",
+					"Variables":[@slider-hovered-fullbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderHover .dijitSliderRemainingBarH,.claro .dijitSliderHover .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-hovered-remainingbar-background-color",
+					"Variables":[@slider-hovered-remainingbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderProgressBarH,.claro .dijitSliderFocused .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-focused-fullbar-background-color",
+					"Variables":[@slider-focused-fullbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderRemainingBarH,.claro .dijitSliderFocused .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-focused-remainingbar-background-color",
+					"Variables":[@slider-focused-remainingbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderProgressBarH,.claro .dijitSliderDisabled .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderRemainingBarH,.claro .dijitSliderDisabled .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitRuleLabelsContainerV",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSlider .dijitSliderProgressBarV,.claro .dijitSlider .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@slider-fullbar-background-color",
+					"Variables":[@slider-fullbar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSlider .dijitSliderRemainingBarV,.claro .dijitSlider .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@slider-remainingbar-background-color",
+					"Variables":[@slider-remainingbar-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "border-bottom",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "border-top",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderHover .dijitSliderProgressBarV,.claro .dijitSliderHover .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-hovered-fullbar-background-color",
+					"Variables":[@slider-hovered-fullbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderHover .dijitSliderRemainingBarV,.claro .dijitSliderHover .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-hovered-remainingbar-background-color",
+					"Variables":[@slider-hovered-remainingbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderProgressBarV,.claro .dijitSliderFocused .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-focused-fullbar-background-color",
+					"Variables":[@slider-focused-fullbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderRemainingBarV,.claro .dijitSliderFocused .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-focused-remainingbar-background-color",
+					"Variables":[@slider-focused-remainingbar-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@focused-border-color",
+					"Variables":[@focused-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderProgressBarV,.claro .dijitSliderDisabled .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderRemainingBarV,.claro .dijitSliderDisabled .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-slider-thumbs",
+					"Variables":[@{image-form-slider-thumbs]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-repeat:no-repeat;background-position:0 0;}.claro .dijitSliderHover .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderProgressBarH .dijitSliderThumbHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderProgressBarH .dijitSliderThumbActive",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderImageHandleH,.claro .dijitSliderDisabled .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-54px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-slider-thumbs",
+					"Variables":[@{image-form-slider-thumbs]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-repeat:no-repeat;background-position:-289px 0;}.claro .dijitSliderHover .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-307px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderFocused .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderProgressBarV .dijitSliderThumbHover",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderProgressBarV .dijitSliderThumbActive",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderImageHandleV,.claro .dijitSliderDisabled .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-343px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderButtonContainerH",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px 3px 1px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderButtonContainerV",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px 1px 2px 1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDecrementIconH,.claro .dijitSliderIncrementIconH,.claro .dijitSliderDecrementIconV,.claro .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-common-arrows",
+					"Variables":[@{image-form-common-arrows]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-repeat:no-repeat;background-color: @arrowbutton-background-color;.border-radius(2px);border: solid 1px @border-color;font-size: 1px;}.claro .dijitSliderDecrementIconH,.claro .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "12px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "9px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDecrementIconV,.claro .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "12px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderActive .dijitSliderDecrementIconH,.claro .dijitSliderActive .dijitSliderIncrementIconH,.claro .dijitSliderActive .dijitSliderDecrementIconV,.claro .dijitSliderActive .dijitSliderIncrementIconV,.claro .dijitSliderHover .dijitSliderDecrementIconH,.claro .dijitSliderHover .dijitSliderIncrementIconH,.claro .dijitSliderHover .dijitSliderDecrementIconV,.claro .dijitSliderHover .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@slider-hoveredButton-background-color",
+					"Variables":[@slider-hoveredButton-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-357px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderActive .dijitSliderDecrementIconH.claro .dijitSliderHover .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-393px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-251px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderActive .dijitSliderIncrementIconH.claro .dijitSliderHover .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-283px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-38px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderActive .dijitSliderDecrementIconV.claro .dijitSliderHover .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-73px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-143px 49%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderActive .dijitSliderIncrementIconV.claro .dijitSliderHover .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-178px 49%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderButtonContainerV .dijitSliderDecrementButtonHover,.claro .dijitSliderButtonContainerH .dijitSliderDecrementButtonHover,.claro .dijitSliderButtonContainerV .dijitSliderIncrementButtonHover,.claro .dijitSliderButtonContainerH .dijitSliderIncrementButtonHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-button-hovered-background-color",
+					"Variables":[@slider-button-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderButtonContainerV .dijitSliderDecrementButtonActive,.claro .dijitSliderButtonContainerH .dijitSliderDecrementButtonActive,.claro .dijitSliderButtonContainerV .dijitSliderIncrementButtonActive,.claro .dijitSliderButtonContainerH .dijitSliderIncrementButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@slider-button-pressed-background-color",
+					"Variables":[@slider-button-pressed-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@pressed-border-color",
+					"Variables":[@pressed-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderButtonInner",
+			"Attributes":[
+                {
+					"Type": "visibility",
+					"Value": "hidden",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderDisabled .dijitSliderBar",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly *,.claro .dijitSliderDisabled *",
+			"Attributes":[
+                {
+					"Type": "border-color",
+					"Value": "@disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderDecrementIconH,.claro .dijitSliderDisabled .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-321px 50%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderIncrementIconH,.claro .dijitSliderDisabled .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-215px 50%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderDecrementIconV,.claro .dijitSliderDisabled .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-3px 49%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderReadOnly .dijitSliderIncrementIconV,.claro .dijitSliderDisabled .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-107px 49%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}{
+			"ClassName": ".claro  .dijitColorPalette",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background",
+					"Value": "@colorpalette-background-color",
+					"Variables":[@colorpalette-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitColorPalette .dijitPaletteImg",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @minor-border-color",
+					"Variables":[@minor-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @swatch-hovered-border-color",
+					"Variables":[@swatch-hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg,.claro .dijitColorPalette .dijitPaletteTable .dijitPaletteCellSelected .dijitPaletteImg",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "2px solid @swatch-selected-border-color",
+					"Variables":[@swatch-selected-border-color]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitInlineEditBoxDisplayMode",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitInlineEditBoxDisplayModeHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-hovered-background-color",
+					"Variables":[@textbox-hovered-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 1px @hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitInlineEditBoxDisplayMode",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitProgressBar",
+			"Attributes":[
+                {
+					"Type": "margin",
+					"Value": "2px 0 2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitProgressBarEmpty",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@progressbar-empty-background-color",
+					"Variables":[@progressbar-empty-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@progressbar-border-color",
+					"Variables":[@progressbar-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@progressbar-full-background-color",
+					"Variables":[@progressbar-full-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("images/progressBarFull.png")",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-attachment",
+					"Value": "scroll",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitProgressBarFull",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0px solid @progressbar-border-color",
+					"Variables":[@progressbar-border-color]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitProgressBarLabel",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@progressbar-text-color",
+					"Variables":[@progressbar-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitProgressBarIndeterminate .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@bar-background-color url(@image-progressbar-anim) repeat-x top",
+					"Variables":[@bar-background-color @image-progressbar-anim)]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitTimePicker .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px @border-color solid",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "border-top",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "#fff",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerItem",
+			"Attributes":[
+                {
+					"Type": "border-top",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "solid 1px @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "margin-top",
+					"Value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerTick",
+			"Attributes":[
+                {
+					"Type": "color",
+					"Value": "@timepicker-minorvalue-text-color",
+					"Variables":[@timepicker-minorvalue-text-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@timepicker-minorvalue-background-color",
+					"Variables":[@timepicker-minorvalue-background-color]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "0.818em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerMarker",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@timepicker-majorvalue-background-color",
+					"Variables":[@timepicker-majorvalue-background-color]
+				}, 
+                {
+					"Type": "font-size",
+					"Value": "1em",
+					"Variables":[]
+				}, 
+                {
+					"Type": "white-space",
+					"Value": "nowrap",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerTickHover,.claro .dijitTimePickerMarkerHover,.claro .dijitTimePickerMarkerSelected,.claro .dijitTimePickerTickSelected",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@timepicker-value-hovered-background-color",
+					"Variables":[@timepicker-value-hovered-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@timepicker-value-hovered-text-color",
+					"Variables":[@timepicker-value-hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerMarkerSelected,.claro .dijitTimePickerTickSelected",
+			"Attributes":[
+                {
+					"Type": "font-size",
+					"Value": "1em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePickerTick .dijitTimePickerItemInner",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-left",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@unselected-background-color",
+					"Variables":[@unselected-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "100%",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url(@image-form-common-arrows)",
+					"Variables":[@image-form-common-arrows)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-140px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-35px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitUpArrowHover, .claro .dijitTimePicker .dijitDownArrowHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@timepicker-arrow-hovered-background-color",
+					"Variables":[@timepicker-arrow-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitUpArrowHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-175px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTimePicker .dijitDownArrowHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-70px 45%",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitBorderContainer",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitContainer-child,.claro .dijitBorderContainer-child",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px @border-color solid",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitBorderContainer-dijitTabContainerTop,.claro .dijitBorderContainer-dijitTabContainerBottom,.claro .dijitBorderContainer-dijitTabContainerLeft,.claro .dijitBorderContainer-dijitTabContainerRight,.claro .dijitBorderContainer-dijitAccordionContainer",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitBorderContainer-dijitBorderContainer",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterH,.claro .dijitGutterH",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ios .claro .dijitSplitterH, .dj_android .claro .dijitSplitterH",
+			"Attributes":[
+                {
+					"Type": "height",
+					"Value": "11px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterH .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@border-color none",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "height",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "top",
+					"Value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "19px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ios .claro .dijitSplitterH .dijitSplitterThumb, .dj_android .claro .dijitSplitterH .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"Type": "top",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterV,.claro .dijitGutterV",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ios .claro .dijitSplitterV, .dj_android .claro .dijitSplitterV",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "11px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterV .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@border-color none",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "height",
+					"Value": "19px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "left",
+					"Value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ios .claro .dijitSplitterV .dijitSplitterThumb, .dj_android .claro .dijitSplitterV .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"Type": "left",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterHHover,.claro .dijitSplitterVHover",
+			"Attributes":[
+                {
+					"Type": "font-size",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@splitter-hovered-background-color",
+					"Variables":[@splitter-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterHHover",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterVHover",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterHHover .dijitSplitterThumb,.claro .dijitSplitterVHover .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@hovered-border-color none",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSplitterHActive,.claro .dijitSplitterVActive",
+			"Attributes":[
+                {
+					"Type": "font-size",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@splitter-dragged-background-color",
+					"Variables":[@splitter-dragged-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitTreeNode",
+			"Attributes":[
+                {
+					"Type": "zoom",
+					"Value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeIsRoot",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRow,.claro .dijitTreeNode .dojoDndItemBefore,.claro .dijitTreeNode .dojoDndItemAfter",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "4px 0 2px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "rgba(171,214,255,0)",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "solid 0 transparent",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowSelected",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@hovered-text-color",
+					"Variables":[@hovered-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@pressed-border-color",
+					"Variables":[@pressed-border-color]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@selected-text-color",
+					"Variables":[@selected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowFocused",
+			"Attributes":[
+                {
+					"Type": "background-repeat",
+					"Value": "repeat",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeExpando",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-tree-expand)",
+					"Variables":[@image-tree-expand)]
+				}, 
+                {
+					"Type": "width",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-position",
+					"Value": "-35px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitTreeExpando",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-tree-expand-ie6)",
+					"Variables":[@image-tree-expand-ie6)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowHover .dijitTreeExpandoOpened",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-53px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeExpandoClosed",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeRowHover .dijitTreeExpandoClosed",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-17px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeExpandoLeaf,.dj_ie6 .claro .dijitTreeExpandoLeaf",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeExpandoLoading",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-loading-animation)",
+					"Variables":[@image-loading-animation)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeNode .dojoDndItemBefore .dijitTreeContent",
+			"Attributes":[
+                {
+					"Type": "border-top",
+					"Value": "2px solid @dnd-dropseparator-color",
+					"Variables":[@dnd-dropseparator-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTreeNode .dojoDndItemAfter .dijitTreeContent",
+			"Attributes":[
+                {
+					"Type": "border-bottom",
+					"Value": "2px solid @dnd-dropseparator-color",
+					"Variables":[@dnd-dropseparator-color]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitToolbar",
+			"Attributes":[
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@bar-background-color",
+					"Variables":[@bar-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px 0 2px 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "zoom",
+					"Value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar label",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0 3px 0 6px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitButton .dijitButtonNode,.claro .dijitToolbar .dijitDropDownButton .dijitButtonNode,.claro .dijitToolbar .dijitComboButton .dijitButtonNode,.claro .dijitToolbar .dijitToggleButton .dijitButtonNode,.claro .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "rgba(171,214,255,0)",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie .claro .dijitToolbar .dijitButton .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitDropDownButton .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitComboButton .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitToggleButton .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie .claro .dijitToolbar .dijitButtonHover .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitComboButton .dijitButtonNodeHover,.dj_ie .claro .dijitToolbar .dijitComboButton .dijitDownArrowButtonHover,.dj_ie .claro .dijitToolbar .dijitToggleButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@button-hovered-background-color",
+					"Variables":[@button-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie .claro .dijitToolbar .dijitButtonActive .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitComboButtonActive .dijitButtonNode,.dj_ie .claro .dijitToolbar .dijitToggleButtonActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@button-pressed-background-color",
+					"Variables":[@button-pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButton .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitButtonHover .dijitButtonNode,.claro .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,.claro .dijitToolbar .dijitToggleButtonHover .dijitButtonNode,.claro .dijitToolbar .dijitComboButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonHover .dijitButtonNode,.claro .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+					"Variables":[@toolbar-combobutton-hovered-unhoveredsection-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonHover .dijitButtonNodeHover,.claro .dijitToolbar .dijitComboButtonHover .dijitDownArrowButtonHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitButtonActive .dijitButtonNode,.claro .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode,.claro .dijitToolbar .dijitToggleButtonActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonActive",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonActive .dijitButtonNode,.claro .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+					"Variables":[@toolbar-combobutton-hovered-unhoveredsection-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonActive .dijitButtonNodeActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonActive .dijitDownArrowButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton,.claro .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"Type": "padding-left",
+					"Value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "margin",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-style",
+					"Value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@selected-border-color",
+					"Variables":[@selected-border-color]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@toolbar-button-checked-background-color",
+					"Variables":[@toolbar-button-checked-background-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbarSeparator",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "url(@image-editor-icons-enabled)",
+					"Variables":[@image-editor-icons-enabled)]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitToolbar",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "none",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}, 
+                {
+					"Type": "border-bottom",
+					"Value": "1px solid @disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboBoxDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 50%",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px 3px 1px 10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-background-color",
+					"Variables":[@textbox-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditor",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditor .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-background-color",
+					"Variables":[@textbox-background-color]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditorHover .dijitEditorIFrameContainer,.claro .dijitEditorHover .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-hovered-background-color",
+					"Variables":[@textbox-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditorFocused .dijitEditorIFrameContainer,.claro .dijitEditorFocused .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-focused-background-color",
+					"Variables":[@textbox-focused-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditorHover .dijitEditorIFrameContainer,.claro .dijitEditorFocused .dijitEditorIFrameContainer",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitEditorDisabled",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "1px solid @disabled-border-color",
+					"Variables":[@disabled-border-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@disabled-text-color",
+					"Variables":[@disabled-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDisabled .dijitEditorIFrame,.claro .dijitDisabled .dijitEditorIFrameContainer,.claro .dijitDisabled .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-disabled-background-color",
+					"Variables":[@textbox-disabled-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitTitlePaneTitle",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@unselected-background-color",
+					"Variables":[@unselected-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 7px 3px 7px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "min-height",
+					"Value": "17px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@unselected-text-color",
+					"Variables":[@unselected-text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitFieldset",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleOpen, .claro .dijitTitlePaneTitleFixedOpen",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@selected-background-color",
+					"Variables":[@selected-background-color]
+				}, 
+                {
+					"Type": "color",
+					"Value": "@text-color",
+					"Variables":[@text-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleHover",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@hovered-background-color",
+					"Variables":[@hovered-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@hovered-border-color",
+					"Variables":[@hovered-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@pressed-background-color",
+					"Variables":[@pressed-background-color]
+				}, 
+                {
+					"Type": "border-color",
+					"Value": "@pressed-border-color",
+					"Variables":[@pressed-border-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleFocus",
+			"Attributes":[
+                {
+					"Type": "margin-top",
+					"Value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-bottom",
+					"Value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePane .dijitArrowNode, .claro .dijitFieldset .dijitArrowNode",
+			"Attributes":[
+                {
+					"Type": "background-image",
+					"Value": "url(@image-arrow-sprite)",
+					"Variables":[@image-arrow-sprite)]
+				}, 
+                {
+					"Type": "background-repeat",
+					"Value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"Type": "height",
+					"Value": "8px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleOpen .dijitArrowNode,  .claro .dijitFieldsetTitleOpen .dijitArrowNode,",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTitleClosed .dijitArrowNode, .claro .dijitFieldsetTitleClosed .dijitArrowNode",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-14px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneContentOuter",
+			"Attributes":[
+                {
+					"Type": "background",
+					"Value": "@pane-background-color",
+					"Variables":[@pane-background-color]
+				}, 
+                {
+					"Type": "border",
+					"Value": "1px solid @border-color",
+					"Variables":[@border-color]
+				}, 
+                {
+					"Type": "border-top",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneContentInner",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitFieldsetContentInner",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitTitlePaneTextNode, .claro .dijitFieldsetLegendNode",
+			"Attributes":[
+                {
+					"Type": "margin-left",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "vertical-align",
+					"Value": "text-top",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitSpinnerButtonContainer",
+			"Attributes":[
+                {
+					"Type": "overflow",
+					"Value": "hidden",
+					"Variables":[]
+				}, 
+                {
+					"Type": "position",
+					"Value": "relative",
+					"Variables":[]
+				}, 
+                {
+					"Type": "width",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "0 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinnerButtonContainer .dijitSpinnerButtonInner",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-style",
+					"Value": "solid none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-background-color",
+					"Variables":[@arrowbutton-background-color]
+				}, 
+                {
+					"Type": "overflow",
+					"Value": "hidden",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_iequirks .claro .dijitSpinner .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "overflow",
+					"Value": "visible",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitSpinnerButtonInner",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "15px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "solid 1px @arrowbutton-inner-border-color",
+					"Variables":[@arrowbutton-inner-border-color]
+				}, 
+                {
+					"Type": "border-bottom-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "url("../@{image-form-common-arrows",
+					"Variables":[@{image-form-common-arrows]
+				}
+			  ]
+		}, {
+			"ClassName": "");background-repeat: no-repeat;height: 100%;width:15px;padding-left: 1px;padding-right: 1px;background-position:-139px center;display: block;margin: -1px 0 -1px 0;}.dj_iequirks .claro .dijitSpinner .dijitArrowButtonInner,.dj_ie6 .claro .dijitSpinner .dijitArrowButtonInner,.dj_ie7 .claro .dijitSpinner .dijitArrowButtonInner,.dj_ie8 .claro .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "margin-top",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_iequirks .claro .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "width",
+					"Value": "19px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-34px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitArrowButtonInner .dijitInputField",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitUpArrowButtonActive,.claro .dijitDownArrowButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-pressed-background-color",
+					"Variables":[@arrowbutton-pressed-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitUpArrowButtonHover,.claro .dijitSpinner .dijitDownArrowButtonHover,.claro .dijitSpinnerFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@arrowbutton-hovered-background-color",
+					"Variables":[@arrowbutton-hovered-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitUpArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-174px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitDownArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-69px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinnerFocused",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@textbox-focused-background-color",
+					"Variables":[@textbox-focused-background-color]
+				}, 
+                {
+					"Type": "background-image",
+					"Value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitDownArrowButtonActive,.claro .dijitSpinner .dijitUpArrowButtonActive",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "#7dbefa",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner,.claro .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "border",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-bottom",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-173px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-68px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinnerDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-color",
+					"Value": "@disabled-background-color",
+					"Variables":[@disabled-background-color]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinnerDisabled .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-104px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSpinnerDisabled .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie7 .claro .dijitSpinner",
+			"Attributes":[
+                {
+					"Type": "overflow",
+					"Value": "visible",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitTextBoxRtlError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitComboButtonRtl .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitComboButtonRtl .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px 0 4px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-left-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitTabContainerTop-tabs .dijitTabRtl,.claro .dijitTabContainerBottom-tabs .dijitTabRtl",
+			"Attributes":[
+                {
+					"Type": "margin-right",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-left",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": "@import "../variables";.claro .dijitSliderRtl .dijitSliderProgressBarH,.claro .dijitSliderRtl .dijitSliderRemainingBarH,.claro .dijitSliderRtl .dijitSliderLeftBumper,.claro .dijitSliderRtl .dijitSliderRightBumper,.claro .dijitSliderRtl .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "top right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRtl .dijitSliderProgressBarV,.claro .dijitSliderRtl .dijitSliderRemainingBarV,.claro .dijitSliderRtl .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "bottom right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRtl .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRtl .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRtl .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-357px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitSliderRtl .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-251px 50%",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitDialogRtl .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"Type": "right",
+					"Value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"Type": "left",
+					"Value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitDialogRtl .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"Type": "text-align",
+					"Value": "left",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "3px 7px 2px 5px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitEditorRtl .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px 10px 1px 3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".dj_ie6 .claro .dijitEditorRtl .dijitEditorIFrameContainer,.dj_ie7 .claro .dijitEditorRtl .dijitEditorIFrameContainer,.dj_ie8 .claro .dijitEditorRtl .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"Type": "padding",
+					"Value": "3px 0px 1px 10px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "0px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border",
+					"Value": "0px solid #d3d3d3",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitTitlePaneRtl .dijitClosed .dijitArrowNode, .claro .dijitFieldsetRtl .dijitFieldsetTitleClosed .dijitArrowNode",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-7px 0",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitMenuItemRtl .dijitMenuExpand",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-7px 0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-right",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "margin-left",
+					"Value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitMenuItemRtl .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"Type": "margin",
+					"Value": "0 4px 0 0",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarArrowHover .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarArrowHover .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-55px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarArrowActive .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-72px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitCalendarRtl .dijitCalendarArrowActive .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"Type": "background-position",
+					"Value": "-91px 0",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonRtl .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonRtlHover .dijitButtonNode,.claro .dijitToolbar .dijitComboButtonRtlActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"Type": "border-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding",
+					"Value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonRtl .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonRtl .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}, {
+			"ClassName": ".claro .dijitToolbar .dijitComboButtonRtlHover .dijitArrowButton,.claro .dijitToolbar .dijitComboButtonRtlActive .dijitArrowButton",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "0",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-left",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "padding-right",
+					"Value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}{
+			"ClassName": ".claro  .dijitProgressBarRtl .dijitProgressBarFull",
+			"Attributes":[
+                {
+					"Type": "border-left-width",
+					"Value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"Type": "border-right-width",
+					"Value": "0px",
+					"Variables":[]
+				}
+			  ]
+		}
+] }

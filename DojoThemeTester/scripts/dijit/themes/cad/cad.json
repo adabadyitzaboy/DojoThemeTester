@@ -1,0 +1,7637 @@
+{ 
+	"LESSVariables": [
+		{
+			"property": "@primary-color",
+			"value": "#b12222",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@secondary-color",
+			"value": "#00bd00",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@text-color",
+			"value": "#000",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@disabled-color",
+			"value": "#d3d3d3",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@error-color",
+			"value": "#d46464",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@container-background-color",
+			"value": "#fff",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@minor-selected-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "6" 
+                ]
+		},
+ "19" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@base-border-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "29" 
+                ]
+		},
+ "44" 
+                ]
+		},
+ "-1" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@unfocused-clickable-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "lighten",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "5" 
+                ]
+		},
+ "10" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@border-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "15" 
+                ]
+		},
+ "67" 
+                ]
+		},
+ "8" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@minor-border-color",
+			"value": "@disabled-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@popup-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@disabled-border-color",
+			"value": "@disabled-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@disabled-background-color",
+			"value": "@secondary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@disabled-text-color",
+			
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "43" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@unselected-background-color",
+			"value": "@secondary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@unselected-text-color",
+			
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "65" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@hovered-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@hovered-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@hovered-text-color",
+			"value": "@text-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@pressed-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@pressed-background-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "16" 
+                ]
+		},
+ "12" 
+                ]
+		},
+ "0" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@selected-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@selected-background-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@selected-text-color",
+			"value": "@text-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@bar-background-color",
+			"value": "@secondary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@pane-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@popup-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@button-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@button-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@button-hovered-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@button-pressed-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@button-border-radius",
+			"value": "4px",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@focused-border-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@error-border-color",
+			"value": "@error-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@error-focused-border-color",
+			
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@error-color",
+ "5" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@erroricon-background-color",
+			"value": "@error-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-hovered-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-focused-background-color",
+			"value": "@textbox-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-error-background-color",
+			"value": "@textbox-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-disabled-background-color",
+			"value": "@disabled-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@textbox-padding",
+			"value": "2px",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@focus-outline-color",
+			
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "65" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@nestedtab-hovered-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@nestedtab-hovered-border-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@nestedtab-selected-border-color",
+			"value": "@selected-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@nestedtab-selected-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@tab-disabled-background-color",
+			"value": "@disabled-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@arrowbutton-background-color",
+			"value": "@secondary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@arrowbutton-hovered-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@arrowbutton-pressed-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@arrowbutton-inner-border-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-fullbar-background-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-remainingbar-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-hovered-fullbar-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-hovered-remainingbar-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-hoveredButton-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-focused-fullbar-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-focused-remainingbar-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-button-hovered-background-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@slider-button-pressed-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@select-dropdownitem-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@select-dropdownitem-hovered-background-color",
+			"value": "@pressed-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@select-matchedtext-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@menu-background-color",
+			"value": "@popup-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-background-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-currentmonth-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-adjacentmonth-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-adjacentmonth-text-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-date-pressed-border-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-date-pressed-background-color",
+			"value": "@pressed-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-date-selected-border-color",
+			"value": "@selected-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-date-selected-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-button-hovered-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-button-hovered-border-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-button-pressed-background-color",
+			"value": "@pressed-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@calendar-button-pressed-border-color",
+			"value": "@pressed-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@progressbar-border-color",
+			"value": "@popup-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@progressbar-full-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@progressbar-empty-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@progressbar-text-color",
+			"value": "@text-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-minorvalue-background-color",
+			"value": "@secondary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-minorvalue-text-color",
+			
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@secondary-color",
+ "43" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-majorvalue-background-color",
+			"value": "@unfocused-clickable-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-value-hovered-background-color",
+			"value": "@pressed-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-value-hovered-text-color",
+			"value": "@hovered-text-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@timepicker-arrow-hovered-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@colorpalette-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@swatch-border-color",
+			"value": "@minor-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@swatch-hovered-border-color",
+			"value": "#000",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@swatch-selected-border-color",
+			"value": "#000",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@dialog-underlay-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@dialog-titlebar-border-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@dialog-titlebar-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@tooltip-gradient-color",
+			
+			"methodName": "fade",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "10%" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@splitter-hovered-background-color",
+			"value": "@primary-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@splitter-dragged-background-color",
+			"value": "@minor-selected-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@toolbar-button-checked-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+			
+			"methodName": "spin",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "saturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "lighten",
+			"Arguments": 
+                [ 
+                     "@primary-color",
+ "8" 
+                ]
+		},
+ "19" 
+                ]
+		},
+ "-29" 
+                ]
+		,
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@toolbar-button-border-radius",
+			"value": "2px",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@dnd-avatar-background-color",
+			"value": "@container-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@dnd-avatar-header-background-color",
+			"value": "#f58383",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@dnd-avatar-candrop-header-background-color",
+			"value": "#97e68d",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@dnd-dropseparator-color",
+			"value": "@base-border-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@document-text-color",
+			"value": "#131313",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@document-shadedsection-background-color",
+			"value": "@bar-background-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@document-border-color",
+			"value": "@disabled-color",
+			"type": "LinkedVariable"
+		}, 
+		{
+			"property": "@image-arrow-sprite",
+			"value": "images/spriteArrows.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-calendar-arrows",
+			"value": "images/calendarArrows.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-calendar-arrows-ie6",
+			"value": "images/calendarArrows8bit.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-checkmark",
+			"value": "images/checkmarkNoBorder.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-checkmark-ie6",
+			"value": "images/checkmarkNoBorder.gif",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-dialog-close",
+			"value": "images/dialogCloseIcon.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-dialog-close-ie6",
+			"value": "images/dialogCloseIcon8bit.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-dnd",
+			"value": "images/dnd.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-editor-icons-enabled",
+			"value": "../../icons/images/editorIconsEnabled.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-button-arrows",
+			"value": "form/images/buttonArrows.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-checkbox-and-radios",
+			"value": "form/images/checkboxRadioButtonStates.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-checkbox-and-radios-ie6",
+			"value": "form/images/checkboxAndRadioButtons_IE6.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-common-arrows",
+			"value": "form/images/commonFormArrows.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-error",
+			"value": "form/images/error.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-form-slider-thumbs",
+			"value": "form/images/sliderThumbs.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-layout-tab-close",
+			"value": "layout/images/tabClose.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-loading-animation",
+			"value": "images/loadingAnimation.gif",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-tooltip",
+			"value": "images/tooltip.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-tooltip-ie6",
+			"value": "images/tooltip8bit.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-tree-expand",
+			"value": "images/treeExpandImages.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-tree-expand-ie6",
+			"value": "images/treeExpandImages8bit.png",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": "@image-progressbar-anim",
+			"value": "images/progressBarAnim.gif",
+			"type": "BasicVariable"
+		}, 
+		{
+			"property": ".border-radius",
+			"Input": [
+                    "@radius"
+             ],
+			"Body": [
+                    {
+			        "type": "-moz-border-radius",
+			        "value":[
+						        "@radius"
+					        ]
+		            }, 
+                    {
+			        "type": "border-radius",
+			        "value":[
+						        "@radius"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "box-shadow",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-box-shadow",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-box-shadow",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "box-shadow",
+			        "value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "transition-property",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-transition-property",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-transition-property",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "transition-property",
+			        "value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "transition-property",
+			"Input": [
+                    "@value1", "@value2"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-transition-property",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-transition-property",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "type": "transition-property",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "transition-duration",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-transition-duration",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-transition-duration",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "transition-duration",
+			        "value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "transition-duration",
+			"Input": [
+                    "@value1", "@value2"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-transition-duration",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-transition-duration",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }, 
+                    {
+			        "type": "transition-duration",
+			        "value":[
+						        "@value1", "@value2"
+					        ]
+		            }
+            ]
+		}, 
+		{
+			"property": "transition-timing-function",
+			"Input": [
+                    "@value"
+             ],
+			"Body": [
+                    {
+			        "type": "-webkit-transition-timing-function",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "-moz-transition-timing-function",
+			        "value":[
+						        "@value"
+					        ]
+		            }, 
+                    {
+			        "type": "transition-timing-function",
+			        "value":[
+						        "@value"
+					        ]
+		            }
+            ]
+		}],
+	"LESSClasses": [{
+			"className": ".cad .dijitPopup",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipDialogPopup",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitComboBoxHighlightMatch",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@select-matchedtext-background-color",
+					"Variables":["@select-matchedtext-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitFocusedLabel",
+			"Attributes":[
+                {
+					"property": "outline",
+					"value": "1px dotted @focus-outline-color",
+					"Variables":["@focus-outline-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndItem",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "rgba(0,0,0,0)",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndItemOver",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndItemAnchor, .cad .dojoDndItemSelected",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndItemBefore, .cad .dojoDndItemAfter",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@dnd-dropseparator-color",
+					"Variables":["@dnd-dropseparator-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad table.dojoDndAvatar",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "border-collapse",
+					"value": "collapse",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@dnd-avatar-background-color",
+					"Variables":["@dnd-avatar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndAvatarHeader td",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "20px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-left",
+					"value": "21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad.dojoDndMove .dojoDndAvatarHeader,  .cad.dojoDndCopy .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-dnd)",
+					"Variables":["@image-dnd"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "2px -122px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dojoDndAvatarItem td",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad.dojoDndMove .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@dnd-avatar-header-background-color",
+					"Variables":["@dnd-avatar-header-background-color"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "2px -103px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad.dojoDndCopy .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@dnd-avatar-header-background-color",
+					"Variables":["@dnd-avatar-header-background-color"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "2px -68px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@dnd-avatar-candrop-header-background-color",
+					"Variables":["@dnd-avatar-candrop-header-background-color"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "2px -33px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@dnd-avatar-candrop-header-background-color",
+					"Variables":["@dnd-avatar-candrop-header-background-color"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBox, .cad .dijitInputInner",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitValidationTextBoxError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@erroricon-background-color",
+					"Variables":["@erroricon-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-error')",
+					"Variables":["@image-form-error"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "top center",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid @erroricon-background-color 0",
+					"Variables":["@erroricon-background-color"]
+				}, 
+                {
+					"property": "width",
+					"value": "9px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBoxError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitValidationTextBoxError .dijitValidationIcon",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextArea, .cad .dijitInputField .dijitPlaceHolder",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "@textbox-padding",
+					"Variables":["@textbox-padding"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect .dijitInputField, .cad .dijitTextBox .dijitInputField",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "@textbox-padding - 1px  @textbox-padding",
+					"Variables":["@textbox-padding", "@textbox-padding"]
+				}
+			  ]
+		}, {
+			"className": ".dj_gecko .cad .dijitTextBox .dijitInputInner, .dj_webkit .cad .dijitTextBox .dijitInputInner",
+			"Attributes":[
+                {
+					"property": "padding-left",
+					"value": "@textbox-padding - 1px",
+					"Variables":["@textbox-padding"]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "@textbox-padding - 1px",
+					"Variables":["@textbox-padding"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect, .cad .dijitSelect .dijitButtonContents, .cad .dijitTextBox, .cad .dijitTextBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect, .cad .dijitTextBox",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-background-color",
+					"Variables":["@textbox-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectHover, .cad .dijitSelectHover .dijitButtonContents, .cad .dijitTextBoxHover, .cad .dijitTextBoxHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBoxHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-hovered-background-color",
+					"Variables":["@textbox-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectError, .cad .dijitSelectError .dijitButtonContents, .cad .dijitTextBoxError, .cad .dijitTextBoxError .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@error-border-color",
+					"Variables":["@error-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectFocused, .cad .dijitSelectFocused .dijitButtonContents, .cad .dijitTextBoxFocused, .cad .dijitTextBoxFocused .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBoxFocused",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-focused-background-color",
+					"Variables":["@textbox-focused-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBoxFocused .dijitInputContainer",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@textbox-focused-background-color",
+					"Variables":["@textbox-focused-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectErrorFocused, .cad .dijitSelectErrorFocused .dijitButtonContents, .cad .dijitTextBoxErrorFocused, .cad .dijitTextBoxErrorFocused .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@error-focused-border-color",
+					"Variables":["@error-focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectDisabled, .cad .dijitSelectDisabled .dijitButtonContents, .cad .dijitTextBoxDisabled, .cad .dijitTextBoxDisabled .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectDisabled, .cad .dijitTextBoxDisabled, .cad .dijitTextBoxDisabled .dijitInputContainer",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-disabled-background-color",
+					"Variables":["@textbox-disabled-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectDisabled, .cad .dijitTextBoxDisabled, .cad .dijitTextBoxDisabled .dijitInputInner",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_webkit .cad .dijitDisabled input",
+			"Attributes":[
+                {
+					"property": "color",
+					
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@disabled-text-color",
+ "5%" 
+                ]
+		, "valueString": "darken(@disabled-text-color, 5%)" ,
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_webkit .cad textarea.dijitTextAreaDisabled",
+			"Attributes":[
+                {
+					"property": "color",
+					
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@disabled-text-color",
+ "40%" 
+                ]
+		, "valueString": "darken(@disabled-text-color, 40%)" ,
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect .dijitArrowButtonInner, .cad .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-common-arrows')",
+					"Variables":["@image-form-common-arrows"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-35px 53%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @arrowbutton-inner-border-color",
+					"Variables":["@arrowbutton-inner-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboBox .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectLabel, .cad .dijitTextBox .dijitInputInner, .cad .dijitValidationTextBox .dijitValidationContainer",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-background-color",
+					"Variables":["@arrowbutton-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBoxOpenOnClickHover .dijitButtonNode, .cad .dijitComboBox .dijitDownArrowButtonHover, .cad .dijitComboBoxFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-hovered-background-color",
+					"Variables":["@arrowbutton-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBoxOpenOnClickHover .dijitArrowButtonInner, .cad .dijitComboBox .dijitDownArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBox .dijitHasDropDownOpen",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_iequirks .cad .dijitComboBox .dijitHasDropDownOpen",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-70px 53%",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "0 none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad div.dijitComboBoxDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 50%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ff3 .cad .dijitInputField input[type='hidden']",
+			"Attributes":[
+                {
+					"property": "display",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_borderbox .cad .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "18px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_borderbox .cad .dijitComboBoxFocused .dijitHasDropDownOpen .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonNode",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitButton .dijitButtonNode, .cad .dijitDropDownButton .dijitButtonNode, .cad .dijitComboButton .dijitButtonNode, .cad .dijitToggleButton .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @button-border-color",
+					"Variables":["@button-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px 4px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}, 
+                {
+					"property": "background-color",
+					
+			"methodName": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@button-background-color",
+ "10" 
+                ]
+		},
+ "20" 
+                ]
+		, "valueString": "desaturate(darken(@button-background-color, 10), 20)" ,
+					"Variables":["@button-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/buttonEnabled.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"property": "_background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "4px 2px 4px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-button-arrows')",
+					"Variables":["@image-form-button-arrows"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-51px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitLeftArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-77px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRightArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-26px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-151px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-177px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-126px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-100px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonText",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 0.3em",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonHover .dijitButtonNode, .cad .dijitDropDownButtonHover .dijitButtonNode, .cad .dijitComboButton .dijitButtonNodeHover,  .cad .dijitComboButton .dijitDownArrowButtonHover, .cad .dijitToggleButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					
+			"methodName": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@button-hovered-background-color",
+ "10" 
+                ]
+		},
+ "20" 
+                ]
+		, "valueString": "desaturate(darken(@button-hovered-background-color, 10), 20)" ,
+					"Variables":["@button-hovered-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonActive .dijitButtonNode,  .cad .dijitDropDownButtonActive .dijitButtonNode, .cad .dijitComboButtonActive .dijitButtonNode, .cad .dijitToggleButtonActive .dijitButtonNode, .cad .dijitToggleButtonChecked .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					
+			"methodName": "desaturate",
+			"Arguments": 
+                [ 
+                     {
+			"methodName": "darken",
+			"Arguments": 
+                [ 
+                     "@button-pressed-background-color",
+ "10" 
+                ]
+		},
+ "20" 
+                ]
+		, "valueString": "desaturate(darken(@button-pressed-background-color, 10), 20)" ,
+					"Variables":["@button-pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonDisabled, .cad .dijitDropDownButtonDisabled, .cad .dijitComboButtonDisabled, .cad .dijitToggleButtonDisabled",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "outline",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitButtonDisabled .dijitButtonNode, .cad .dijitDropDownButtonDisabled .dijitButtonNode, .cad .dijitComboButtonDisabled .dijitButtonNode, .cad .dijitToggleButtonDisabled .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/buttonDisabled.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "_background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboButtonDisabled .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad table.dijitComboButton",
+			"Attributes":[
+                {
+					"property": "border-collapse",
+					"value": "separate",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboButton .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-checkmark')",
+					"Variables":["@image-checkmark"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-checkmark-ie6')",
+					"Variables":["@image-checkmark-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBox, .cad .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios')",
+					"Variables":["@image-form-checkbox-and-radios"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 2px 0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCheckBox, .dj_ie6 .cad .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios-ie6')",
+					"Variables":["@image-form-checkbox-and-radios-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBox, .cad .dijitToggleButton .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-15px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBoxChecked, .cad .dijitToggleButtonChecked .dijitCheckBoxIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBoxDisabled",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-75px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBoxCheckedDisabled",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-60px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBoxHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-45px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckBoxCheckedHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-30px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToggleButton .dijitRadio, .cad .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios')",
+					"Variables":["@image-form-checkbox-and-radios"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitToggleButton .dijitRadio, .dj_ie6 .cad .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios-ie6')",
+					"Variables":["@image-form-checkbox-and-radios-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadio, .cad .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios')",
+					"Variables":["@image-form-checkbox-and-radios"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 2px 0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitRadio, .dj_ie6 .cad .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-checkbox-and-radios-ie6')",
+					"Variables":["@image-form-checkbox-and-radios-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadio",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-105px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToggleButton .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-107px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioDisabled",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-165px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-135px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioChecked",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-90px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToggleButtonChecked .dijitRadioIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-92px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioCheckedHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-120px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioCheckedDisabled",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-150px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect .dijitArrowButtonContainer",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @arrowbutton-inner-border-color",
+					"Variables":["@arrowbutton-inner-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-background-color",
+					"Variables":["@arrowbutton-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelect .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-hovered-background-color",
+					"Variables":["@textbox-hovered-background-color"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectHover .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-hovered-background-color",
+					"Variables":["@arrowbutton-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectHover .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "#7dbefa",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-70px 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectDisabled",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectDisabled .dijitArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 53%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectMenu td.dijitMenuItemIconCell, .cad .dijitSelectMenu td.dijitMenuArrowCell",
+			"Attributes":[
+                {
+					"property": "display",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectMenu td.dijitMenuItemLabel",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "@textbox-padding",
+					"Variables":["@textbox-padding"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSelectMenu .dijitMenuSeparatorTop",
+			"Attributes":[
+                {
+					"property": "border-bottom",
+					"value": "1px solid @focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".unselected-tab-gradient (@direction)",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".topBottom-selected-tab-gradient (@direction)",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTabPaneWrapper",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@pane-background-color",
+					"Variables":["@pane-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabPaneWrapper, .cad .dijitTabContainerTop-tabs, .cad .dijitTabContainerBottom-tabs, .cad .dijitTabContainerLeft-tabs, .cad .dijitTabContainerRight-tabs",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabCloseButton",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "url('../@image-layout-tab-close') no-repeat",
+					"Variables":["@image-layout-tab-close"]
+				}, 
+                {
+					"property": "width",
+					"value": "14px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-left",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "-5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabCloseButtonHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabCloseButtonActive",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-28px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabSpacer",
+			"Attributes":[
+                {
+					"property": "display",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTab",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@unselected-background-color",
+					"Variables":["@unselected-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@unselected-text-color",
+					"Variables":["@unselected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabHover",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabActive",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@pressed-border-color",
+					"Variables":["@pressed-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabDisabled",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@tab-disabled-background-color",
+					"Variables":["@tab-disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTop-tabs .dijitTab",
+			"Attributes":[
+                {
+					"property": "top",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 6px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "min-width",
+					"value": "60px",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabTopUnselected.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTop-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "padding-bottom",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-top",
+					"value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabTopSelected.png')",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerBottom-tabs .dijitTab",
+			"Attributes":[
+                {
+					"property": "top",
+					"value": "-1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 6px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-top-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "min-width",
+					"value": "60px",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabBottomUnselected.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "bottom",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerBottom-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "padding-bottom",
+					"value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-top",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabBottomSelected.png')",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerLeft-tabs .dijitTab",
+			"Attributes":[
+                {
+					"property": "left",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 8px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabLeftUnselected.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-y",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerLeft-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "border-right-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabLeftSelected.png')",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerRight-tabs .dijitTab",
+			"Attributes":[
+                {
+					"property": "left",
+					"value": "-1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 8px 4px 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabRightUnselected.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-y",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerRight-tabs .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "padding-left",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabRightSelected.png')",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTop-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerBottom-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerLeft-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerRight-tabs .dijitTab",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .tabStripButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@button-background-color",
+					"Variables":["@button-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabListContainer-top .tabStripButton",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "4px 3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-top",
+					"value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabListContainer-bottom .tabStripButton",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "4px 3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButtonHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButtonActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabStripIcon",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "background",
+					"value": "url('../@image-form-button-arrows') no-repeat -75px 50%",
+					"Variables":["@image-form-button-arrows"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabStripSlideRightIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-24px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabStripMenuIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-51px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabListContainer-top .tabStripButtonDisabled, .cad .dijitTabListContainer-bottom .tabStripButtonDisabled",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@tab-disabled-background-color",
+					"Variables":["@tab-disabled-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButtonDisabled .dijitTabStripSlideLeftIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-175px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButtonDisabled .dijitTabStripSlideRightIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-124px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .tabStripButtonDisabled .dijitTabStripMenuIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-151px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerNested .dijitTabListWrapper",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "auto",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerNested .dijitTabContainerTop-tabs",
+			"Attributes":[
+                {
+					"property": "border-bottom",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px 2px 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTab",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "rgba(255, 255, 255, 0)",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "rgba(118,157,192,0)",
+					"Variables":[]
+				}, 
+                {
+					"property": "top",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/tabNested.png') repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTabHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@nestedtab-hovered-background-color",
+					"Variables":["@nestedtab-hovered-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @nestedtab-hovered-border-color",
+					"Variables":["@nestedtab-hovered-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTabHover .tabLabel",
+			"Attributes":[
+                {
+					"property": "text-decoration",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTabActive",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @nestedtab-selected-border-color",
+					"Variables":["@nestedtab-selected-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTabChecked",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTabListNested .dijitTabChecked .tabLabel",
+			"Attributes":[
+                {
+					"property": "text-decoration",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabPaneWrapperNested",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainer .dijitTab, .cad .dijitTabContainer .tabStripButton",
+			"Attributes":[
+                {
+					"property": "_background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialog",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @popup-border-color",
+					"Variables":["@popup-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogPaneContent",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@pane-background-color repeat-x top left",
+					"Variables":["@pane-background-color"]
+				}, 
+                {
+					"property": "border-top",
+					"value": "1px solid @popup-border-color",
+					"Variables":["@popup-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "10px 8px",
+					"Variables":[]
+				}, 
+                {
+					"property": "position",
+					"value": "relative",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogPaneContentArea",
+			"Attributes":[
+                {
+					"property": "margin",
+					"value": "-10px -8px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "10px 8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@bar-background-color",
+					"Variables":["@bar-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 5px 2px 7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "right",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-top",
+					"value": "1px solid @minor-border-color",
+					"Variables":["@minor-border-color"]
+				}, 
+                {
+					"property": "margin",
+					"value": "10px -8px -10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipDialog .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"property": "-webkit-border-bottom-right-radius",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "-webkit-border-bottom-left-radius",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom-right-radius",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom-left-radius",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "-moz-border-radius-bottomright",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "-moz-border-radius-bottomleft",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "10px -10px -8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogPaneActionBar .dijitButton",
+			"Attributes":[
+                {
+					"property": "float",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogTitleBar",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @dialog-titlebar-border-color",
+					"Variables":["@dialog-titlebar-border-color"]
+				}, 
+                {
+					"property": "border-top",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@dialog-titlebar-background-color",
+					"Variables":["@dialog-titlebar-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "5px 7px 4px 7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogTitle",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "url(@image-dialog-close)",
+					"Variables":["@image-dialog-close"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "position",
+					"value": "absolute",
+					"Variables":[]
+				}, 
+                {
+					"property": "right",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-dialog-close-ie6)",
+					"Variables":["@image-dialog-close-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogCloseIconHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-21px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogCloseIcon:active",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-42px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltip, .cad .dijitTooltipDialog",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dijitTooltipBelow",
+			"Attributes":[
+                {
+					"property": "padding-top",
+					"value": "13px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-left",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dijitTooltipAbove",
+			"Attributes":[
+                {
+					"property": "padding-bottom",
+					"value": "13px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-left",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipContainer",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@popup-background-color",
+					"Variables":["@popup-background-color"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "bottom",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @popup-border-color",
+					"Variables":["@popup-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "6px 8px",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1em",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "z-index",
+					"value": "2",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url(@image-tooltip)",
+					"Variables":["@image-tooltip"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-tooltip-ie6)",
+					"Variables":["@image-tooltip-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipBelow .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "top",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "left",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-31px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipAbove .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "bottom",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "left",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-15px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie7 .cad .dijitTooltipAbove .dijitTooltipConnector, .dj_ie6 .cad .dijitTooltipAbove .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "bottom",
+					"value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipABRight .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "left",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "right",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipLeft",
+			"Attributes":[
+                {
+					"property": "padding-right",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipLeft .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "right",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipRight",
+			"Attributes":[
+                {
+					"property": "padding-left",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTooltipRight .dijitTooltipConnector",
+			"Attributes":[
+                {
+					"property": "left",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-48px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "14px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogUnderlay",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@dialog-underlay-color",
+					"Variables":["@dialog-underlay-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionContainer",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainer",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@unselected-background-color",
+					"Variables":["@unselected-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "5px 7px 2px 7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "min-height",
+					"value": "17px",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@unselected-text-color",
+					"Variables":["@unselected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionContainer .dijitAccordionChildWrapper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pane-background-color",
+					"Variables":["@pane-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionContainer .dijitAccordionContainer-child",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "9px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerHover",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerHover .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerActive",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerActive .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerSelected",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitAccordionInnerContainerSelected .dijitAccordionTitle",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitContentPane",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTop-dijitContentPane, .cad .dijitTabContainerLeft-dijitContentPane, .cad .dijitTabContainerBottom-dijitContentPane, .cad .dijitTabContainerRight-dijitContentPane, .cad .dijitAccordionContainer-dijitContentPane",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pane-background-color",
+					"Variables":["@pane-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitContainer-dijitContentPane, .cad .dijitBorderContainer-dijitContentPane",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pane-background-color",
+					"Variables":["@pane-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "8px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "border-collapse",
+					"value": "separate",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@calendar-background-color",
+					"Variables":["@calendar-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/calendar.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "6px 5px 3px 5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCalendar",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar img",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarHover,  .cad .dijitCalendar:hover, .cad .dijitCalendarActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarMonthContainer th",
+			"Attributes":[
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-bottom",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "vertical-align",
+					"value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarMonthLabel",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarIncrementControl",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url(@image-calendar-arrows)",
+					"Variables":["@image-calendar-arrows"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCalendarIncrementControl",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-calendar-arrows-ie6)",
+					"Variables":["@image-calendar-arrows-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarArrowHover .dijitCalendarDecrease, .cad .dijitCalendarArrow:hover .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarArrowHover .dijitCalendarIncrease, .cad .dijitCalendarArrow:hover .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-55px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarArrowActive .dijitCalendarDecrease, .cad .dijitCalendarArrow:active .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-72px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarArrowActive .dijitCalendarIncrease, .cad .dijitCalendarArrow:active .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-91px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitA11ySideArrow",
+			"Attributes":[
+                {
+					"property": "display",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarDayLabelTemplate",
+			"Attributes":[
+                {
+					"property": "padding-bottom",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 3px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarDayLabel",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 4px 0 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-weight",
+					"value": "bold",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "0.909em",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarDateTemplate",
+			"Attributes":[
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@calendar-currentmonth-background-color",
+					"Variables":["@calendar-currentmonth-background-color"]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "1px solid @minor-border-color",
+					"Variables":["@minor-border-color"]
+				}, 
+                {
+					"property": "padding-top",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "0.909em",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-family",
+					"value": "Arial",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-weight",
+					"value": "bold",
+					"Variables":[]
+				}, 
+                {
+					"property": "letter-spacing",
+					"value": ".05em",
+					"Variables":[]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCalendarDateTemplate",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarPreviousMonth, .cad .dijitCalendarNextMonth",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@calendar-adjacentmonth-background-color",
+					"Variables":["@calendar-adjacentmonth-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "solid 1px @minor-border-color",
+					"Variables":["@minor-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarDateTemplate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "text-decoration",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "display",
+					"value": "block",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 5px 3px 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @calendar-currentmonth-background-color",
+					"Variables":["@calendar-currentmonth-background-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "rgba(171,212,251,0)",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarPreviousMonth .dijitCalendarDateLabel, .cad .dijitCalendarNextMonth .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@calendar-adjacentmonth-text-color",
+					"Variables":["@calendar-adjacentmonth-text-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@calendar-adjacentmonth-background-color",
+					"Variables":["@calendar-adjacentmonth-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarYearContainer",
+			"Attributes":[
+                {
+					"property": "vertical-align",
+					"value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarYearControl",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 2px 2px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarYearLabel",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "2px 0 0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1.17em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarYearLabel span",
+			"Attributes":[
+                {
+					"property": "vertical-align",
+					"value": "middle",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarSelectedYear",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarNextYear, .cad .dijitCalendarPreviousYear",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 6px 1px 6px",
+					"Variables":[]
+				}, 
+                {
+					"property": "font-size",
+					"value": "0.909em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarSelectedYear",
+			"Attributes":[
+                {
+					"property": "font-size",
+					"value": "1.091em",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarHoveredDate .dijitCalendarDateLabel, .cad .dijitCalendarEnabledDate:hover .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarNextYearHover,  .cad .dijitCalendarNextYear:hover, .cad .dijitCalendarPreviousYearHover,  .cad .dijitCalendarPreviousYear:hover",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @calendar-button-hovered-border-color",
+					"Variables":["@calendar-button-hovered-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 5px 0 5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@calendar-button-hovered-background-color",
+					"Variables":["@calendar-button-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarNextYearActive,  .cad .dijitCalendarNextYear:active.cad .dijitCalendarPreviousYearActive,  .cad .dijitCalendarPreviousYear:active",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @calendar-button-pressed-border-color",
+					"Variables":["@calendar-button-pressed-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 5px 0 5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@calendar-button-pressed-background-color",
+					"Variables":["@calendar-button-pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarActiveDate .dijitCalendarDateLabel, .cad .dijitCalendarEnabledDate:active .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@calendar-date-pressed-background-color",
+					"Variables":["@calendar-date-pressed-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @calendar-date-pressed-border-color",
+					"Variables":["@calendar-date-pressed-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCalendarActiveDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarSelectedDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@calendar-date-selected-background-color",
+					"Variables":["@calendar-date-selected-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@calendar-date-selected-border-color",
+					"Variables":["@calendar-date-selected-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarDisabledDate .dijitCalendarDateLabel",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}, 
+                {
+					"property": "text-decoration",
+					"value": "line-through",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar .dijitDropDownButton",
+			"Attributes":[
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar .dijitButtonText",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 0 3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "-4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar .dijitDropDownButton .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 3px 0 2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendar .dijitDropDownButtonHover .dijitButtonNode, .cad .dijitCalendar .dijitDropDownButton:hover .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@calendar-button-hovered-background-color",
+					"Variables":["@calendar-button-hovered-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @calendar-button-hovered-border-color",
+					"Variables":["@calendar-button-hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarMonthMenu",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@popup-border-color",
+					"Variables":["@popup-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@menu-background-color",
+					"Variables":["@menu-background-color"]
+				}, 
+                {
+					"property": "text-align",
+					"value": "center",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarMonthMenu .dijitCalendarMonthLabel",
+			"Attributes":[
+                {
+					"property": "border-top",
+					"value": "solid 1px @menu-background-color",
+					"Variables":["@menu-background-color"]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "solid 1px @menu-background-color",
+					"Variables":["@menu-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarMonthMenu .dijitCalendarMonthLabelHover, .cad .dijitCalendarMonthMenu .dijitCalendarMonthLabel:hover",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuBar",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@bar-background-color",
+					"Variables":["@bar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenu",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@menu-background-color",
+					"Variables":["@menu-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @popup-border-color",
+					"Variables":["@popup-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuItem",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuBar .dijitMenuItem",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "6px 10px 7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuBar .dijitMenuItemHover, .cad .dijitMenuBar .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "5px 9px 6px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuTable",
+			"Attributes":[
+                {
+					"property": "border-collapse",
+					"value": "separate",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-spacing",
+					"value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenu .dijitMenuItem td, .cad .dijitComboBoxMenu .dijitMenuItem",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "@textbox-padding",
+					"Variables":["@textbox-padding"]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px 0 1px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-style",
+					"value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@select-dropdownitem-background-color",
+					"Variables":["@select-dropdownitem-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenu .dijitMenuItemHover td, .cad .dijitMenu .dijitMenuItemSelected td, .cad .dijitMenuItemHover, .cad .dijitComboBoxMenu .dijitMenuItemHover, .cad .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuItemActive",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".dj_ie .cad .dijitMenuActive .dijitMenuItemHover, .dj_ie .cad .dijitMenuActive .dijitMenuItemSelected, .dj_ie .cad .dijitMenuPassive .dijitMenuItemHover, .dj_ie .cad .dijitMenuPassive .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"property": "padding-top",
+					"value": "6px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-bottom",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-top",
+					"value": "-3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad td.dijitMenuItemIconCell",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0 0 0 4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad td.dijitMenuItemLabel",
+			"Attributes":[
+                {
+					"property": "padding-top",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-bottom",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuExpand",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url(@image-arrow-sprite)",
+					"Variables":["@image-arrow-sprite"]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-14px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuItemDisabled .dijitMenuItemIconCell",
+			"Attributes":[
+                {
+					"property": "opacity",
+					"value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuSeparatorTop",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-top",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuSeparatorBottom",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckedMenuItem .dijitMenuItemIcon, .cad .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-form-checkbox-and-radios)",
+					"Variables":["@image-form-checkbox-and-radios"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-15px 50%",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitCheckedMenuItem .dijitMenuItemIcon, .dj_ie6 .cad .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-form-checkbox-and-radios-ie6)",
+					"Variables":["@image-form-checkbox-and-radios-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioMenuItem .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-105px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRadioMenuItemChecked .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-90px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBoxMenu",
+			"Attributes":[
+                {
+					"property": "margin-left",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenu .dijitMenuItemSelected td, .cad .dijitComboBoxMenu .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboBoxMenuActive .dijitMenuItemSelected",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@select-dropdownitem-hovered-background-color",
+					"Variables":["@select-dropdownitem-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuPreviousButton,  .cad .dijitMenuNextButton",
+			"Attributes":[
+                {
+					"property": "font-style",
+					"value": "italic",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderBar",
+			"Attributes":[
+                {
+					"property": "border-style",
+					"value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"property": "outline",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderBar",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderBar",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderBar",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRuleLabelsContainer",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRuleLabelsContainerH",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSlider .dijitSliderProgressBarH, .cad .dijitSlider .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@slider-fullbar-background-color",
+					"Variables":["@slider-fullbar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSlider .dijitSliderRemainingBarH, .cad .dijitSlider .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@slider-remainingbar-background-color",
+					"Variables":["@slider-remainingbar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "border-right",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "border-left",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderProgressBarH, .cad .dijitSliderHover .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-hovered-fullbar-background-color",
+					"Variables":["@slider-hovered-fullbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderRemainingBarH, .cad .dijitSliderHover .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-hovered-remainingbar-background-color",
+					"Variables":["@slider-hovered-remainingbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderProgressBarH, .cad .dijitSliderFocused .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-focused-fullbar-background-color",
+					"Variables":["@slider-focused-fullbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderRemainingBarH, .cad .dijitSliderFocused .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-focused-remainingbar-background-color",
+					"Variables":["@slider-focused-remainingbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderProgressBarH, .cad .dijitSliderDisabled .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderRemainingBarH, .cad .dijitSliderDisabled .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitRuleLabelsContainerV",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSlider .dijitSliderProgressBarV, .cad .dijitSlider .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@slider-fullbar-background-color",
+					"Variables":["@slider-fullbar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSlider .dijitSliderRemainingBarV, .cad .dijitSlider .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@slider-remainingbar-background-color",
+					"Variables":["@slider-remainingbar-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "border-bottom",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "border-top",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderProgressBarV, .cad .dijitSliderHover .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-hovered-fullbar-background-color",
+					"Variables":["@slider-hovered-fullbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderRemainingBarV, .cad .dijitSliderHover .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-hovered-remainingbar-background-color",
+					"Variables":["@slider-hovered-remainingbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderProgressBarV, .cad .dijitSliderFocused .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-focused-fullbar-background-color",
+					"Variables":["@slider-focused-fullbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderRemainingBarV, .cad .dijitSliderFocused .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-focused-remainingbar-background-color",
+					"Variables":["@slider-focused-remainingbar-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@focused-border-color",
+					"Variables":["@focused-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderProgressBarV, .cad .dijitSliderDisabled .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderRemainingBarV, .cad .dijitSliderDisabled .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-slider-thumbs')",
+					"Variables":["@image-form-slider-thumbs"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderProgressBarH .dijitSliderThumbHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderProgressBarH .dijitSliderThumbActive",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderImageHandleH, .cad .dijitSliderDisabled .dijitSliderImageHandleH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-54px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "18px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-slider-thumbs')",
+					"Variables":["@image-form-slider-thumbs"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-289px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderHover .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-307px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderFocused .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderProgressBarV .dijitSliderThumbHover",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderProgressBarV .dijitSliderThumbActive",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-325px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderImageHandleV, .cad .dijitSliderDisabled .dijitSliderImageHandleV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-343px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderButtonContainerH",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px 3px 1px 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderButtonContainerV",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px 1px 2px 1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDecrementIconH, .cad .dijitSliderIncrementIconH, .cad .dijitSliderDecrementIconV, .cad .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-common-arrows')",
+					"Variables":["@image-form-common-arrows"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-background-color",
+					"Variables":["@arrowbutton-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDecrementIconH, .cad .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "12px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "9px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDecrementIconV, .cad .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "9px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "12px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderActive .dijitSliderDecrementIconH, .cad .dijitSliderActive .dijitSliderIncrementIconH, .cad .dijitSliderActive .dijitSliderDecrementIconV, .cad .dijitSliderActive .dijitSliderIncrementIconV, .cad .dijitSliderHover .dijitSliderDecrementIconH, .cad .dijitSliderHover .dijitSliderIncrementIconH, .cad .dijitSliderHover .dijitSliderDecrementIconV, .cad .dijitSliderHover .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@slider-hoveredButton-background-color",
+					"Variables":["@slider-hoveredButton-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-357px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderActive .dijitSliderDecrementIconH.cad .dijitSliderHover .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-393px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-251px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderActive .dijitSliderIncrementIconH.cad .dijitSliderHover .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-283px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-38px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderActive .dijitSliderDecrementIconV.cad .dijitSliderHover .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-73px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-143px 49%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderActive .dijitSliderIncrementIconV.cad .dijitSliderHover .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-178px 49%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderButtonContainerV .dijitSliderDecrementButtonHover, .cad .dijitSliderButtonContainerH .dijitSliderDecrementButtonHover, .cad .dijitSliderButtonContainerV .dijitSliderIncrementButtonHover, .cad .dijitSliderButtonContainerH .dijitSliderIncrementButtonHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-button-hovered-background-color",
+					"Variables":["@slider-button-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderButtonContainerV .dijitSliderDecrementButtonActive, .cad .dijitSliderButtonContainerH .dijitSliderDecrementButtonActive, .cad .dijitSliderButtonContainerV .dijitSliderIncrementButtonActive, .cad .dijitSliderButtonContainerH .dijitSliderIncrementButtonActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@slider-button-pressed-background-color",
+					"Variables":["@slider-button-pressed-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@pressed-border-color",
+					"Variables":["@pressed-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderButtonInner",
+			"Attributes":[
+                {
+					"property": "visibility",
+					"value": "hidden",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderDisabled .dijitSliderBar",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly *, .cad .dijitSliderDisabled *",
+			"Attributes":[
+                {
+					"property": "border-color",
+					"value": "@disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderDecrementIconH, .cad .dijitSliderDisabled .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-321px 50%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderIncrementIconH, .cad .dijitSliderDisabled .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-215px 50%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderDecrementIconV, .cad .dijitSliderDisabled .dijitSliderDecrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-3px 49%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderReadOnly .dijitSliderIncrementIconV, .cad .dijitSliderDisabled .dijitSliderIncrementIconV",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-107px 49%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad  .dijitColorPalette",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background",
+					"value": "@colorpalette-background-color",
+					"Variables":["@colorpalette-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitColorPalette .dijitPaletteImg",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @minor-border-color",
+					"Variables":["@minor-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitColorPalette .dijitPaletteCell:hover .dijitPaletteImg",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @swatch-hovered-border-color",
+					"Variables":["@swatch-hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitColorPalette .dijitPaletteCell:active .dijitPaletteImg, .cad .dijitColorPalette .dijitPaletteTable .dijitPaletteCellSelected .dijitPaletteImg",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "2px solid @swatch-selected-border-color",
+					"Variables":["@swatch-selected-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitInlineEditBoxDisplayMode",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitInlineEditBoxDisplayModeHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-hovered-background-color",
+					"Variables":["@textbox-hovered-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 1px @hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitInlineEditBoxDisplayMode",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBar",
+			"Attributes":[
+                {
+					"property": "margin",
+					"value": "2px 0 2px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBarEmpty",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@progressbar-empty-background-color",
+					"Variables":["@progressbar-empty-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@progressbar-border-color",
+					"Variables":["@progressbar-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@progressbar-full-background-color",
+					"Variables":["@progressbar-full-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('images/progressBarFull.png')",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-attachment",
+					"value": "scroll",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBarFull",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0px solid @progressbar-border-color",
+					"Variables":["@progressbar-border-color"]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBarLabel",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@progressbar-text-color",
+					"Variables":["@progressbar-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitProgressBarIndeterminate .dijitProgressBarTile",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@bar-background-color url(@image-progressbar-anim) repeat-x top",
+					"Variables":["@bar-background-color", "@image-progressbar-anim"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px @border-color solid",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "border-top",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "#fff",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerItem",
+			"Attributes":[
+                {
+					"property": "border-top",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "solid 1px @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "margin-top",
+					"value": "-1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerTick",
+			"Attributes":[
+                {
+					"property": "color",
+					"value": "@timepicker-minorvalue-text-color",
+					"Variables":["@timepicker-minorvalue-text-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@timepicker-minorvalue-background-color",
+					"Variables":["@timepicker-minorvalue-background-color"]
+				}, 
+                {
+					"property": "font-size",
+					"value": "0.818em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerMarker",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@timepicker-majorvalue-background-color",
+					"Variables":["@timepicker-majorvalue-background-color"]
+				}, 
+                {
+					"property": "font-size",
+					"value": "1em",
+					"Variables":[]
+				}, 
+                {
+					"property": "white-space",
+					"value": "nowrap",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerTickHover, .cad .dijitTimePickerMarkerHover, .cad .dijitTimePickerMarkerSelected, .cad .dijitTimePickerTickSelected",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@timepicker-value-hovered-background-color",
+					"Variables":["@timepicker-value-hovered-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@timepicker-value-hovered-text-color",
+					"Variables":["@timepicker-value-hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerMarkerSelected, .cad .dijitTimePickerTickSelected",
+			"Attributes":[
+                {
+					"property": "font-size",
+					"value": "1em",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePickerTick .dijitTimePickerItemInner",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-left",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@unselected-background-color",
+					"Variables":["@unselected-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "100%",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url(@image-form-common-arrows)",
+					"Variables":["@image-form-common-arrows"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-140px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-35px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitUpArrowHover,  .cad .dijitTimePicker .dijitDownArrowHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@timepicker-arrow-hovered-background-color",
+					"Variables":["@timepicker-arrow-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitUpArrowHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-175px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTimePicker .dijitDownArrowHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-70px 45%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitBorderContainer",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitContainer-child, .cad .dijitBorderContainer-child",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px @border-color solid",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitBorderContainer-dijitTabContainerTop, .cad .dijitBorderContainer-dijitTabContainerBottom, .cad .dijitBorderContainer-dijitTabContainerLeft, .cad .dijitBorderContainer-dijitTabContainerRight, .cad .dijitBorderContainer-dijitAccordionContainer",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitBorderContainer-dijitBorderContainer",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterH, .cad .dijitGutterH",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ios .cad .dijitSplitterH,  .dj_android .cad .dijitSplitterH",
+			"Attributes":[
+                {
+					"property": "height",
+					"value": "11px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterH .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@border-color none",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "height",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "top",
+					"value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "19px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ios .cad .dijitSplitterH .dijitSplitterThumb,  .dj_android .cad .dijitSplitterH .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"property": "top",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterV, .cad .dijitGutterV",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "5px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ios .cad .dijitSplitterV,  .dj_android .cad .dijitSplitterV",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "11px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterV .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@border-color none",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "height",
+					"value": "19px",
+					"Variables":[]
+				}, 
+                {
+					"property": "left",
+					"value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ios .cad .dijitSplitterV .dijitSplitterThumb,  .dj_android .cad .dijitSplitterV .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"property": "left",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterHHover, .cad .dijitSplitterVHover",
+			"Attributes":[
+                {
+					"property": "font-size",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@splitter-hovered-background-color",
+					"Variables":["@splitter-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterHHover",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterVHover",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterHHover .dijitSplitterThumb, .cad .dijitSplitterVHover .dijitSplitterThumb",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@hovered-border-color none",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSplitterHActive, .cad .dijitSplitterVActive",
+			"Attributes":[
+                {
+					"property": "font-size",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@splitter-dragged-background-color",
+					"Variables":["@splitter-dragged-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeNode",
+			"Attributes":[
+                {
+					"property": "zoom",
+					"value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeIsRoot",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRow, .cad .dijitTreeNode .dojoDndItemBefore, .cad .dijitTreeNode .dojoDndItemAfter",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "4px 0 2px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "rgba(171,214,255,0)",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "0 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "solid 0 transparent",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowSelected",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@hovered-text-color",
+					"Variables":["@hovered-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 0 1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@pressed-border-color",
+					"Variables":["@pressed-border-color"]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@selected-text-color",
+					"Variables":["@selected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowFocused",
+			"Attributes":[
+                {
+					"property": "background-repeat",
+					"value": "repeat",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeExpando",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-tree-expand)",
+					"Variables":["@image-tree-expand"]
+				}, 
+                {
+					"property": "width",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "16px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-35px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitTreeExpando",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-tree-expand-ie6)",
+					"Variables":["@image-tree-expand-ie6"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowHover .dijitTreeExpandoOpened",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-53px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeExpandoClosed",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeRowHover .dijitTreeExpandoClosed",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-17px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeExpandoLeaf, .dj_ie6 .cad .dijitTreeExpandoLeaf",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeExpandoLoading",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-loading-animation)",
+					"Variables":["@image-loading-animation"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeNode .dojoDndItemBefore .dijitTreeContent",
+			"Attributes":[
+                {
+					"property": "border-top",
+					"value": "2px solid @dnd-dropseparator-color",
+					"Variables":["@dnd-dropseparator-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTreeNode .dojoDndItemAfter .dijitTreeContent",
+			"Attributes":[
+                {
+					"property": "border-bottom",
+					"value": "2px solid @dnd-dropseparator-color",
+					"Variables":["@dnd-dropseparator-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar",
+			"Attributes":[
+                {
+					"property": "border-bottom",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@bar-background-color",
+					"Variables":["@bar-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px 0 2px 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "zoom",
+					"value": "1",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar label",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0 3px 0 6px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitButton .dijitButtonNode, .cad .dijitToolbar .dijitDropDownButton .dijitButtonNode, .cad .dijitToolbar .dijitComboButton .dijitButtonNode, .cad .dijitToolbar .dijitToggleButton .dijitButtonNode, .cad .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "rgba(171,214,255,0)",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie .cad .dijitToolbar .dijitButton .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitDropDownButton .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitComboButton .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitToggleButton .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "transparent",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie .cad .dijitToolbar .dijitButtonHover .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitComboButton .dijitButtonNodeHover, .dj_ie .cad .dijitToolbar .dijitComboButton .dijitDownArrowButtonHover, .dj_ie .cad .dijitToolbar .dijitToggleButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@button-hovered-background-color",
+					"Variables":["@button-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie .cad .dijitToolbar .dijitButtonActive .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitComboButtonActive .dijitButtonNode, .dj_ie .cad .dijitToolbar .dijitToggleButtonActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@button-pressed-background-color",
+					"Variables":["@button-pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButton .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButton .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboBox .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitButtonHover .dijitButtonNode, .cad .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode, .cad .dijitToolbar .dijitToggleButtonHover .dijitButtonNode, .cad .dijitToolbar .dijitComboButtonHover .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonHover .dijitButtonNode, .cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+					"Variables":["@toolbar-combobutton-hovered-unhoveredsection-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonHover .dijitButtonNodeHover, .cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButtonHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitButtonActive .dijitButtonNode, .cad .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode, .cad .dijitToolbar .dijitToggleButtonActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonActive",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonActive .dijitButtonNode, .cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@toolbar-combobutton-hovered-unhoveredsection-background-color",
+					"Variables":["@toolbar-combobutton-hovered-unhoveredsection-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonActive .dijitButtonNodeActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButtonActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton, .cad .dijitToolbar .dijitComboButtonActive .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton",
+			"Attributes":[
+                {
+					"property": "padding-left",
+					"value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "margin",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-style",
+					"value": "solid",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@selected-border-color",
+					"Variables":["@selected-border-color"]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@toolbar-button-checked-background-color",
+					"Variables":["@toolbar-button-checked-background-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbarSeparator",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "url(@image-editor-icons-enabled)",
+					"Variables":["@image-editor-icons-enabled"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitToolbar",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "none",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}, 
+                {
+					"property": "border-bottom",
+					"value": "1px solid @disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboBoxDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px 3px 1px 10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-background-color",
+					"Variables":["@textbox-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditor",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditor .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-background-color",
+					"Variables":["@textbox-background-color"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "repeat-x",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorHover .dijitEditorIFrameContainer, .cad .dijitEditorHover .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-hovered-background-color",
+					"Variables":["@textbox-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorFocused .dijitEditorIFrameContainer, .cad .dijitEditorFocused .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-focused-background-color",
+					"Variables":["@textbox-focused-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorHover .dijitEditorIFrameContainer, .cad .dijitEditorFocused .dijitEditorIFrameContainer",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitEditorDisabled",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "1px solid @disabled-border-color",
+					"Variables":["@disabled-border-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@disabled-text-color",
+					"Variables":["@disabled-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDisabled .dijitEditorIFrame, .cad .dijitDisabled .dijitEditorIFrameContainer, .cad .dijitDisabled .dijitEditorIFrameContainer .dijitEditorIFrame",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-disabled-background-color",
+					"Variables":["@textbox-disabled-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitle",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@unselected-background-color",
+					"Variables":["@unselected-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 7px 3px 7px",
+					"Variables":[]
+				}, 
+                {
+					"property": "min-height",
+					"value": "17px",
+					"Variables":[]
+				}, 
+                {
+					"property": "color",
+					"value": "@unselected-text-color",
+					"Variables":["@unselected-text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitFieldset",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleOpen,  .cad .dijitTitlePaneTitleFixedOpen",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@selected-background-color",
+					"Variables":["@selected-background-color"]
+				}, 
+                {
+					"property": "color",
+					"value": "@text-color",
+					"Variables":["@text-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleHover",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@hovered-background-color",
+					"Variables":["@hovered-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@hovered-border-color",
+					"Variables":["@hovered-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@pressed-background-color",
+					"Variables":["@pressed-background-color"]
+				}, 
+                {
+					"property": "border-color",
+					"value": "@pressed-border-color",
+					"Variables":["@pressed-border-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleFocus",
+			"Attributes":[
+                {
+					"property": "margin-top",
+					"value": "3px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-bottom",
+					"value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePane .dijitArrowNode,  .cad .dijitFieldset .dijitArrowNode",
+			"Attributes":[
+                {
+					"property": "background-image",
+					"value": "url(@image-arrow-sprite)",
+					"Variables":["@image-arrow-sprite"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "8px",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "7px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleOpen .dijitArrowNode,   .cad .dijitFieldsetTitleOpen .dijitArrowNode, ",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTitleClosed .dijitArrowNode,  .cad .dijitFieldsetTitleClosed .dijitArrowNode",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-14px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneContentOuter",
+			"Attributes":[
+                {
+					"property": "background",
+					"value": "@pane-background-color",
+					"Variables":["@pane-background-color"]
+				}, 
+                {
+					"property": "border",
+					"value": "1px solid @border-color",
+					"Variables":["@border-color"]
+				}, 
+                {
+					"property": "border-top",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneContentInner",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "10px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitFieldsetContentInner",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "4px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneTextNode,  .cad .dijitFieldsetLegendNode",
+			"Attributes":[
+                {
+					"property": "margin-left",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "vertical-align",
+					"value": "text-top",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerButtonContainer",
+			"Attributes":[
+                {
+					"property": "overflow",
+					"value": "hidden",
+					"Variables":[]
+				}, 
+                {
+					"property": "position",
+					"value": "relative",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "0 2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerButtonContainer .dijitSpinnerButtonInner",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "1px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-style",
+					"value": "solid none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-background-color",
+					"Variables":["@arrowbutton-background-color"]
+				}, 
+                {
+					"property": "overflow",
+					"value": "hidden",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_iequirks .cad .dijitSpinner .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "overflow",
+					"value": "visible",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitSpinnerButtonInner",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "solid 1px @arrowbutton-inner-border-color",
+					"Variables":["@arrowbutton-inner-border-color"]
+				}, 
+                {
+					"property": "border-bottom-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-image",
+					"value": "url('../@image-form-common-arrows')",
+					"Variables":["@image-form-common-arrows"]
+				}, 
+                {
+					"property": "background-repeat",
+					"value": "no-repeat",
+					"Variables":[]
+				}, 
+                {
+					"property": "height",
+					"value": "100%",
+					"Variables":[]
+				}, 
+                {
+					"property": "width",
+					"value": "15px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-left",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "background-position",
+					"value": "-139px center",
+					"Variables":[]
+				}, 
+                {
+					"property": "display",
+					"value": "block",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin",
+					"value": "-1px 0 -1px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_iequirks .cad .dijitSpinner .dijitArrowButtonInner, .dj_ie6 .cad .dijitSpinner .dijitArrowButtonInner, .dj_ie7 .cad .dijitSpinner .dijitArrowButtonInner, .dj_ie8 .cad .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "margin-top",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_iequirks .cad .dijitSpinner .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "width",
+					"value": "19px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-34px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitArrowButtonInner .dijitInputField",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitUpArrowButtonActive, .cad .dijitDownArrowButtonActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-pressed-background-color",
+					"Variables":["@arrowbutton-pressed-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitUpArrowButtonHover, .cad .dijitSpinner .dijitDownArrowButtonHover, .cad .dijitSpinnerFocused .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@arrowbutton-hovered-background-color",
+					"Variables":["@arrowbutton-hovered-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitUpArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-174px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitDownArrowButtonHover .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-69px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerFocused",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@textbox-focused-background-color",
+					"Variables":["@textbox-focused-background-color"]
+				}, 
+                {
+					"property": "background-image",
+					"value": "none",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitDownArrowButtonActive, .cad .dijitSpinner .dijitUpArrowButtonActive",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "#7dbefa",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner, .cad .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "border",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "2px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-bottom",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-173px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-68px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerDisabled .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-color",
+					"value": "@disabled-background-color",
+					"Variables":["@disabled-background-color"]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerDisabled .dijitUpArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-104px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSpinnerDisabled .dijitDownArrowButton .dijitArrowButtonInner",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie7 .cad .dijitSpinner",
+			"Attributes":[
+                {
+					"property": "overflow",
+					"value": "visible",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTextBoxRtlError .dijitValidationContainer",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitComboButtonRtl .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitComboButtonRtl .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px 0 4px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-left-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTabContainerTop-tabs .dijitTabRtl, .cad .dijitTabContainerBottom-tabs .dijitTabRtl",
+			"Attributes":[
+                {
+					"property": "margin-right",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-left",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderProgressBarH, .cad .dijitSliderRtl .dijitSliderRemainingBarH, .cad .dijitSliderRtl .dijitSliderLeftBumper, .cad .dijitSliderRtl .dijitSliderRightBumper, .cad .dijitSliderRtl .dijitSliderTopBumper",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "top right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderProgressBarV, .cad .dijitSliderRtl .dijitSliderRemainingBarV, .cad .dijitSliderRtl .dijitSliderBottomBumper",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "bottom right",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderLeftBumper",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderRightBumper",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderIncrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-357px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitSliderRtl .dijitSliderDecrementIconH",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-251px 50%",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogRtl .dijitDialogCloseIcon",
+			"Attributes":[
+                {
+					"property": "right",
+					"value": "auto",
+					"Variables":[]
+				}, 
+                {
+					"property": "left",
+					"value": "5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitDialogRtl .dijitDialogPaneActionBar",
+			"Attributes":[
+                {
+					"property": "text-align",
+					"value": "left",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "3px 7px 2px 5px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitEditorRtl .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px 10px 1px 3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".dj_ie6 .cad .dijitEditorRtl .dijitEditorIFrameContainer, .dj_ie7 .cad .dijitEditorRtl .dijitEditorIFrameContainer, .dj_ie8 .cad .dijitEditorRtl .dijitEditorIFrameContainer",
+			"Attributes":[
+                {
+					"property": "padding",
+					"value": "3px 0px 1px 10px",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "0px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border",
+					"value": "0px solid #d3d3d3",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitTitlePaneRtl .dijitClosed .dijitArrowNode,  .cad .dijitFieldsetRtl .dijitFieldsetTitleClosed .dijitArrowNode",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-7px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuItemRtl .dijitMenuExpand",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-7px 0",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-right",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "margin-left",
+					"value": "3px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitMenuItemRtl .dijitMenuItemIcon",
+			"Attributes":[
+                {
+					"property": "margin",
+					"value": "0 4px 0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "0 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-18px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarArrowHover .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-36px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarArrowHover .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-55px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarArrowActive .dijitCalendarIncrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-72px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitCalendarRtl .dijitCalendarArrowActive .dijitCalendarDecrease",
+			"Attributes":[
+                {
+					"property": "background-position",
+					"value": "-91px 0",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonRtl .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonRtlHover .dijitButtonNode, .cad .dijitToolbar .dijitComboButtonRtlActive .dijitButtonNode",
+			"Attributes":[
+                {
+					"property": "border-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding",
+					"value": "1px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonRtl .dijitStretch",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonRtl .dijitArrowButton",
+			"Attributes":[
+			  ]
+		}, {
+			"className": ".cad .dijitToolbar .dijitComboButtonRtlHover .dijitArrowButton, .cad .dijitToolbar .dijitComboButtonRtlActive .dijitArrowButton",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "0",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-left",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "padding-right",
+					"value": "2px",
+					"Variables":[]
+				}
+			  ]
+		}, {
+			"className": ".cad  .dijitProgressBarRtl .dijitProgressBarFull",
+			"Attributes":[
+                {
+					"property": "border-left-width",
+					"value": "1px",
+					"Variables":[]
+				}, 
+                {
+					"property": "border-right-width",
+					"value": "0px",
+					"Variables":[]
+				}
+			  ]
+		}
+],
+	"StyleSheet":"scripts/dijit/themes/cad/cad.css",
+	"ClassName":"cad"}

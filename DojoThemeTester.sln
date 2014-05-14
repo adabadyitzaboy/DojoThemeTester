@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoThemeTester", "DojoThemeTester\DojoThemeTester.csproj", "{BDBF8299-700E-4FB1-A4C2-59C4481858EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeTester", "ThemeTester\ThemeTester.csproj", "{9A320344-05B8-48C2-9ACA-3B56260E2172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeTester.Tests", "ThemeTester.Tests\ThemeTester.Tests.csproj", "{FF356029-A5AD-4EE0-B97A-9AF79115C262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBF8299-700E-4FB1-A4C2-59C4481858EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBF8299-700E-4FB1-A4C2-59C4481858EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBF8299-700E-4FB1-A4C2-59C4481858EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBF8299-700E-4FB1-A4C2-59C4481858EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A320344-05B8-48C2-9ACA-3B56260E2172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A320344-05B8-48C2-9ACA-3B56260E2172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A320344-05B8-48C2-9ACA-3B56260E2172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A320344-05B8-48C2-9ACA-3B56260E2172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF356029-A5AD-4EE0-B97A-9AF79115C262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF356029-A5AD-4EE0-B97A-9AF79115C262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF356029-A5AD-4EE0-B97A-9AF79115C262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF356029-A5AD-4EE0-B97A-9AF79115C262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

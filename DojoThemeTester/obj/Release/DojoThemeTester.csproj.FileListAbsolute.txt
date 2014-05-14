@@ -1,0 +1,10 @@
+c:\users\eutonbry\documents\visual studio 2012\Projects\DojoThemeTester\DojoThemeTester\bin\DojoThemeTester.dll
+c:\users\eutonbry\documents\visual studio 2012\Projects\DojoThemeTester\DojoThemeTester\bin\DojoThemeTester.pdb
+c:\users\eutonbry\documents\visual studio 2012\Projects\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.dll
+c:\users\eutonbry\documents\visual studio 2012\Projects\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.pdb
+c:\users\eutonbry\documents\visual studio 2012\Projects\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.csprojResolveAssemblyReference.cache
+D:\DojoThemeTester\DojoThemeTester\bin\DojoThemeTester.dll
+D:\DojoThemeTester\DojoThemeTester\bin\DojoThemeTester.pdb
+D:\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.csprojResolveAssemblyReference.cache
+D:\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.dll
+D:\DojoThemeTester\DojoThemeTester\obj\Release\DojoThemeTester.pdb
